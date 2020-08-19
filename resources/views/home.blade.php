@@ -76,12 +76,12 @@
                         <span class="link-text">نمونه کار</span>
                     </a>
                 </li>
-                <li>
-                    <a href="#blog" class="nav-anim">
-                        <span class="menu-icon lnr lnr-book"></span>
-                        <span class="link-text">بلاگ</span>
-                    </a>
-                </li>
+{{--                <li>--}}
+{{--                    <a href="#blog" class="nav-anim">--}}
+{{--                        <span class="menu-icon lnr lnr-book"></span>--}}
+{{--                        <span class="link-text">بلاگ</span>--}}
+{{--                    </a>--}}
+{{--                </li>--}}
                 <li>
                     <a href="#contact" class="nav-anim">
                         <span class="menu-icon lnr lnr-envelope"></span>
@@ -99,7 +99,7 @@
             </div>
 
             <div class="header-buttons">
-                <a href="#" target="_blank" class="btn btn-primary">دانلود رزومه</a>
+                <a href="{{asset('assets/myfiles/MyResume (2).pdf')}}" target="_blank" class="btn btn-primary">دانلود رزومه</a>
             </div>
 
 {{--            <div class="copyrights">© تمام حقوق محفوظ می باشند - ارائه اختصاصی در راستچین</div>--}}
@@ -166,7 +166,8 @@
                         <!-- Personal Information -->
                         <div class="row">
                             <div class="col-xs-12 col-sm-7">
-                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد </p>
+                                <p>
+                                    توسعه دهنده php و laravel، توانایی انجام پروژه بصورت فردی و گروهی، علاقمند به پیشرفت و توسعه دانش و مهارت های فردی                                </p>
                             </div>
 
                             <div class="col-xs-12 col-sm-5">
@@ -174,7 +175,7 @@
                                     <ul>
                                         <li>
                                             <span class="title">سن</span>
-                                            <span class="value">32</span>
+                                            <span class="value">24</span>
                                         </li>
 
                                         <li>
@@ -184,17 +185,17 @@
 
                                         <li>
                                             <span class="title">آدرس</span>
-                                            <span class="value">ایران، تهران، میدان آرژانتین</span>
+                                            <span class="value">ایران</span>
                                         </li>
 
                                         <li>
                                             <span class="title">ایمیل</span>
-                                            <span class="value"><a href="#">info@yourdomain.com</a></span>
+                                            <span class="value"><a href="#">realalii@yahoo.com</a></span>
                                         </li>
 
                                         <li>
                                             <span class="title">تلفن</span>
-                                            <span class="value">09123456789</span>
+                                            <span class="value">09197304278</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -222,16 +223,20 @@
                                                 <i class="lnr lnr-store"></i>
                                             </div>
                                             <div class="ci-text">
-                                                <h4>فروشگاهی</h4>
-                                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+                                                <h4>برنامه نویسی سایت با لاراول</h4>
+                                                <p>
+                                                    برنامه نویسی انواع سایت های فروشگاهی، شرکتی، خبری،...با فریمورک لاراول
+                                                </p>
                                             </div>
                                         </div>
                                         <div class="info-block-w-icon">
                                             <div class="ci-icon">
                                                 <i class="lnr lnr-laptop-phone"></i>
                                             </div><div class="ci-text">
-                                                <h4>طراحی سایت</h4>
-                                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+                                                <h4>توسعه سایت</h4>
+                                                <p>
+                                                    توسعه انواع سایت های لاراولی و افزودن امکانات جدید
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -246,18 +251,20 @@
                                                 <i class="lnr lnr-pencil"></i>
                                             </div>
                                             <div class="ci-text">
-                                                <h4>کپی رایتینگ</h4>
-                                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
+                                                <h4>دیباگ</h4>
+                                                <p>
+                                                    دیباگ انواع سایت های لاراولی
+                                                </p>
                                             </div>
                                         </div>
-                                        <div class="info-block-w-icon">
-                                            <div class="ci-icon">
-                                                <i class="lnr lnr-flag"></i>
-                                            </div><div class="ci-text">
-                                                <h4>مدیریت</h4>
-                                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
-                                            </div>
-                                        </div>
+{{--                                        <div class="info-block-w-icon">--}}
+{{--                                            <div class="ci-icon">--}}
+{{--                                                <i class="lnr lnr-flag"></i>--}}
+{{--                                            </div><div class="ci-text">--}}
+{{--                                                <h4>مدیریت</h4>--}}
+{{--                                                <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
                                     </div>
                                 </div>
                             </div>
@@ -266,247 +273,247 @@
 
                         <div class="white-space-30"></div>
 
-                        <!-- Testimonials -->
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
-                                <div class="block-title">
-                                    <h3>نظر مشتریان</h3>
-                                </div>
-                            </div>
-                        </div>
+{{--                        <!-- Testimonials -->--}}
+{{--                        <div class="row">--}}
+{{--                            <div class="col-xs-12 col-sm-12">--}}
+{{--                                <div class="block-title">--}}
+{{--                                    <h3>نظر مشتریان</h3>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
-                                <div class="testimonials owl-carousel">
-                                    <!-- Testimonial 1 -->
-                                    <div class="testimonial">
-                                        <div class="img">
-                                            <img src="{{asset('assets/img/testimonials/testimonial-1.jpg')}}" alt="علی حیدری">
-                                        </div>
-                                        <div class="text">
-                                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
-                                        </div>
+{{--                        <div class="row">--}}
+{{--                            <div class="col-xs-12 col-sm-12">--}}
+{{--                                <div class="testimonials owl-carousel">--}}
+{{--                                    <!-- Testimonial 1 -->--}}
+{{--                                    <div class="testimonial">--}}
+{{--                                        <div class="img">--}}
+{{--                                            <img src="{{asset('assets/img/testimonials/testimonial-1.jpg')}}" alt="علی حیدری">--}}
+{{--                                        </div>--}}
+{{--                                        <div class="text">--}}
+{{--                                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>--}}
+{{--                                        </div>--}}
 
-                                        <div class="author-info">
-                                            <h4 class="author">هومن سیدی</h4>
-                                            <h5 class="company">ابد و یک روز</h5>
-                                            <div class="icon">
-                                                <i class="fas fa-quote-right"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End of Testimonial 1 -->
+{{--                                        <div class="author-info">--}}
+{{--                                            <h4 class="author">هومن سیدی</h4>--}}
+{{--                                            <h5 class="company">ابد و یک روز</h5>--}}
+{{--                                            <div class="icon">--}}
+{{--                                                <i class="fas fa-quote-right"></i>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <!-- End of Testimonial 1 -->--}}
 
-                                    <!-- Testimonial 2 -->
-                                    <div class="testimonial">
-                                        <div class="img">
-                                            <img src="{{asset('assets/img/testimonials/testimonial-2.jpg')}}" alt="علی حیدری">
-                                        </div>
-                                        <div class="text">
-                                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
-                                        </div>
+{{--                                    <!-- Testimonial 2 -->--}}
+{{--                                    <div class="testimonial">--}}
+{{--                                        <div class="img">--}}
+{{--                                            <img src="{{asset('assets/img/testimonials/testimonial-2.jpg')}}" alt="علی حیدری">--}}
+{{--                                        </div>--}}
+{{--                                        <div class="text">--}}
+{{--                                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>--}}
+{{--                                        </div>--}}
 
-                                        <div class="author-info">
-                                            <h4 class="author">رامبد جوان</h4>
-                                            <h5 class="company">برنامه خندوانه</h5>
-                                            <div class="icon">
-                                                <i class="fas fa-quote-right"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End of Testimonial 2 -->
+{{--                                        <div class="author-info">--}}
+{{--                                            <h4 class="author">رامبد جوان</h4>--}}
+{{--                                            <h5 class="company">برنامه خندوانه</h5>--}}
+{{--                                            <div class="icon">--}}
+{{--                                                <i class="fas fa-quote-right"></i>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <!-- End of Testimonial 2 -->--}}
 
-                                    <!-- Testimonial 3 -->
-                                    <div class="testimonial">
-                                        <div class="img">
-                                            <img src="{{asset('assets/img/testimonials/testimonial-3.jpg')}}" alt="علی حیدری">
-                                        </div>
-                                        <div class="text">
-                                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
-                                        </div>
+{{--                                    <!-- Testimonial 3 -->--}}
+{{--                                    <div class="testimonial">--}}
+{{--                                        <div class="img">--}}
+{{--                                            <img src="{{asset('assets/img/testimonials/testimonial-3.jpg')}}" alt="علی حیدری">--}}
+{{--                                        </div>--}}
+{{--                                        <div class="text">--}}
+{{--                                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>--}}
+{{--                                        </div>--}}
 
-                                        <div class="author-info">
-                                            <h4 class="author">علی کشاورز</h4>
-                                            <h5 class="company">فروشگاه جو</h5>
-                                            <div class="icon">
-                                                <i class="fas fa-quote-right"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End of Testimonial 3 -->
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Testimonials -->
-
-                        <div class="white-space-50"></div>
-
-                        <!-- Clients -->
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
-                                <div class="block-title">
-                                    <h3>مشتریان</h3>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
-                                <div class="clients owl-carousel">
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="لوگو">
-                                            <img src="{{asset('assets/img/clients/client-1.png')}}" alt="لوگو">
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="لوگو">
-                                            <img src="{{asset('assets/img/clients/client-2.png')}}" alt="لوگو">
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="لوگو">
-                                            <img src="{{asset('assets/img/clients/client-3.png')}}" alt="لوگو">
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="لوگو">
-                                            <img src="{{asset('assets/img/clients/client-4.png')}}" alt="لوگو">
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="لوگو">
-                                            <img src="{{asset('assets/img/clients/client-5.png')}}" alt="لوگو">
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="لوگو">
-                                            <img src="{{asset('assets/img/clients/client-6.png')}}" alt="لوگو">
-                                        </a>
-                                    </div>
-
-                                    <div class="client-block">
-                                        <a href="#" target="_blank" title="لوگو">
-                                            <img src="{{asset('assets/img/clients/client-7.png')}}" alt="لوگو">
-                                        </a>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Clients -->
+{{--                                        <div class="author-info">--}}
+{{--                                            <h4 class="author">علی کشاورز</h4>--}}
+{{--                                            <h5 class="company">فروشگاه جو</h5>--}}
+{{--                                            <div class="icon">--}}
+{{--                                                <i class="fas fa-quote-right"></i>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+{{--                                    <!-- End of Testimonial 3 -->--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <!-- End of Testimonials -->--}}
 
                         <div class="white-space-50"></div>
 
-                        <!-- Pricing -->
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
+{{--                        <!-- Clients -->--}}
+{{--                        <div class="row">--}}
+{{--                            <div class="col-xs-12 col-sm-12">--}}
+{{--                                <div class="block-title">--}}
+{{--                                    <h3>مشتریان</h3>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
-                                <div class="block-title">
-                                    <h3>قیمت گذاری</h3>
-                                </div>
-                            </div>
-                        </div>
+{{--                        <div class="row">--}}
+{{--                            <div class="col-xs-12 col-sm-12">--}}
+{{--                                <div class="clients owl-carousel">--}}
 
-                        <div class="row">
-                            <div class=" col-xs-12 col-sm-12 ">
-                                <div class="fw-pricing clearfix row">
+{{--                                    <div class="client-block">--}}
+{{--                                        <a href="#" target="_blank" title="لوگو">--}}
+{{--                                            <img src="{{asset('assets/img/clients/client-1.png')}}" alt="لوگو">--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
 
-                                    <div class="fw-package-wrap col-md-6 ">
-                                        <div class="fw-package">
-                                            <div class="fw-heading-row">
-                                                <span>برنز</span>
-                                            </div>
+{{--                                    <div class="client-block">--}}
+{{--                                        <a href="#" target="_blank" title="لوگو">--}}
+{{--                                            <img src="{{asset('assets/img/clients/client-2.png')}}" alt="لوگو">--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
 
-                                            <div class="fw-pricing-row">
-                                                <span>65000</span>
-                                                <small>ماهانه</small>
-                                            </div>
+{{--                                    <div class="client-block">--}}
+{{--                                        <a href="#" target="_blank" title="لوگو">--}}
+{{--                                            <img src="{{asset('assets/img/clients/client-3.png')}}" alt="لوگو">--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
 
-                                            <div class="fw-button-row">
-                                                <a href="#" target="_self" class="btn btn-secondary">امتحان رایگان</a>
-                                            </div>
+{{--                                    <div class="client-block">--}}
+{{--                                        <a href="#" target="_blank" title="لوگو">--}}
+{{--                                            <img src="{{asset('assets/img/clients/client-4.png')}}" alt="لوگو">--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
 
-                                            <div class="fw-default-row">10GB فضای ذخیره سازی</div>
-                                            <div class="fw-default-row">پهنای باند نامحدود</div>
-                                            <div class="fw-default-row">پشتیبانی  6 ماهه</div>
-                                        </div>
-                                    </div>
+{{--                                    <div class="client-block">--}}
+{{--                                        <a href="#" target="_blank" title="لوگو">--}}
+{{--                                            <img src="{{asset('assets/img/clients/client-5.png')}}" alt="لوگو">--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
 
-                                    <div class="fw-package-wrap col-md-6 highlight-col ">
-                                        <div class="fw-package">
-                                            <div class="fw-heading-row">
-                                                <span>طلایی</span>
-                                            </div>
+{{--                                    <div class="client-block">--}}
+{{--                                        <a href="#" target="_blank" title="لوگو">--}}
+{{--                                            <img src="{{asset('assets/img/clients/client-6.png')}}" alt="لوگو">--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
 
-                                            <div class="fw-pricing-row">
-                                                <span>128000</span>
-                                                <small>ماهانه</small>
-                                            </div>
+{{--                                    <div class="client-block">--}}
+{{--                                        <a href="#" target="_blank" title="لوگو">--}}
+{{--                                            <img src="{{asset('assets/img/clients/client-7.png')}}" alt="لوگو">--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
 
-                                            <div class="fw-button-row">
-                                                <a href="#" target="_self" class="btn btn-primary">امتحان رایگان</a>
-                                            </div>
-
-                                            <div class="fw-default-row">100GB فضای ذخیره سازی</div>
-                                            <div class="fw-default-row">پهنای باند نامحدود</div>
-                                            <div class="fw-default-row">پشتیبانی  12 ماهه</div>
-                                            <div class="fw-default-row">ترافیک نیم بها</div>
-                                            <div class="fw-default-row"></div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Pricing -->
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <!-- End of Clients -->--}}
 
                         <div class="white-space-50"></div>
 
-                        <!-- Fun Facts -->
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-12">
+{{--                        <!-- Pricing -->--}}
+{{--                        <div class="row">--}}
+{{--                            <div class="col-xs-12 col-sm-12">--}}
 
-                                <div class="block-title">
-                                    <h3>واقعیت های <span>جالب</span></h3>
-                                </div>
-                            </div>
-                        </div>
+{{--                                <div class="block-title">--}}
+{{--                                    <h3>قیمت گذاری</h3>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
 
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-4">
-                                <div class="fun-fact gray-default">
-                                    <i class="lnr lnr-heart"></i>
-                                    <h4>مشتریان خوشحال</h4>
-                                    <span class="fun-fact-block-value">578</span>
-                                    <span class="fun-fact-block-text"></span>
-                                </div>
-                            </div>
+{{--                        <div class="row">--}}
+{{--                            <div class=" col-xs-12 col-sm-12 ">--}}
+{{--                                <div class="fw-pricing clearfix row">--}}
 
-                            <div class="col-xs-12 col-sm-4">
-                                <div class="fun-fact gray-default">
-                                    <i class="lnr lnr-clock"></i>
-                                    <h4>ساعت های کاری</h4>
-                                    <span class="fun-fact-block-value">4,780</span>
-                                    <span class="fun-fact-block-text"></span>
-                                </div>
-                            </div>
+{{--                                    <div class="fw-package-wrap col-md-6 ">--}}
+{{--                                        <div class="fw-package">--}}
+{{--                                            <div class="fw-heading-row">--}}
+{{--                                                <span>برنز</span>--}}
+{{--                                            </div>--}}
 
-                            <div class="col-xs-12 col-sm-4 ">
-                                <div class="fun-fact gray-default">
-                                    <i class="lnr lnr-star"></i>
-                                    <h4>جایزه های دریافتی</h4>
-                                    <span class="fun-fact-block-value">15</span>
-                                    <span class="fun-fact-block-text"></span>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End of Fun Facts -->
+{{--                                            <div class="fw-pricing-row">--}}
+{{--                                                <span>65000</span>--}}
+{{--                                                <small>ماهانه</small>--}}
+{{--                                            </div>--}}
+
+{{--                                            <div class="fw-button-row">--}}
+{{--                                                <a href="#" target="_self" class="btn btn-secondary">امتحان رایگان</a>--}}
+{{--                                            </div>--}}
+
+{{--                                            <div class="fw-default-row">10GB فضای ذخیره سازی</div>--}}
+{{--                                            <div class="fw-default-row">پهنای باند نامحدود</div>--}}
+{{--                                            <div class="fw-default-row">پشتیبانی  6 ماهه</div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+
+{{--                                    <div class="fw-package-wrap col-md-6 highlight-col ">--}}
+{{--                                        <div class="fw-package">--}}
+{{--                                            <div class="fw-heading-row">--}}
+{{--                                                <span>طلایی</span>--}}
+{{--                                            </div>--}}
+
+{{--                                            <div class="fw-pricing-row">--}}
+{{--                                                <span>128000</span>--}}
+{{--                                                <small>ماهانه</small>--}}
+{{--                                            </div>--}}
+
+{{--                                            <div class="fw-button-row">--}}
+{{--                                                <a href="#" target="_self" class="btn btn-primary">امتحان رایگان</a>--}}
+{{--                                            </div>--}}
+
+{{--                                            <div class="fw-default-row">100GB فضای ذخیره سازی</div>--}}
+{{--                                            <div class="fw-default-row">پهنای باند نامحدود</div>--}}
+{{--                                            <div class="fw-default-row">پشتیبانی  12 ماهه</div>--}}
+{{--                                            <div class="fw-default-row">ترافیک نیم بها</div>--}}
+{{--                                            <div class="fw-default-row"></div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
+
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <!-- End of Pricing -->--}}
+
+                        <div class="white-space-50"></div>
+
+{{--                        <!-- Fun Facts -->--}}
+{{--                        <div class="row">--}}
+{{--                            <div class="col-xs-12 col-sm-12">--}}
+
+{{--                                <div class="block-title">--}}
+{{--                                    <h3>واقعیت های <span>جالب</span></h3>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+
+{{--                        <div class="row">--}}
+{{--                            <div class="col-xs-12 col-sm-4">--}}
+{{--                                <div class="fun-fact gray-default">--}}
+{{--                                    <i class="lnr lnr-heart"></i>--}}
+{{--                                    <h4>مشتریان خوشحال</h4>--}}
+{{--                                    <span class="fun-fact-block-value">578</span>--}}
+{{--                                    <span class="fun-fact-block-text"></span>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+
+{{--                            <div class="col-xs-12 col-sm-4">--}}
+{{--                                <div class="fun-fact gray-default">--}}
+{{--                                    <i class="lnr lnr-clock"></i>--}}
+{{--                                    <h4>ساعت های کاری</h4>--}}
+{{--                                    <span class="fun-fact-block-value">4,780</span>--}}
+{{--                                    <span class="fun-fact-block-text"></span>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+
+{{--                            <div class="col-xs-12 col-sm-4 ">--}}
+{{--                                <div class="fun-fact gray-default">--}}
+{{--                                    <i class="lnr lnr-star"></i>--}}
+{{--                                    <h4>جایزه های دریافتی</h4>--}}
+{{--                                    <span class="fun-fact-block-value">15</span>--}}
+{{--                                    <span class="fun-fact-block-text"></span>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                        <!-- End of Fun Facts -->--}}
 
                     </div>
                 </section>
@@ -530,26 +537,26 @@
                                 <div class="timeline timeline-second-style clearfix">
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period">1392</h5>
-                                            <span class="item-company">دانشکده مهندسی</span>
+                                            <h5 class="item-period">1398</h5>
+                                            <span class="item-company">مهندسی نقشه برداری</span>
                                         </div>
                                         <div class="divider"></div>
-                                        <div class="right-part">
-                                            <h4 class="item-title">مهندسی نرم افزار</h4>
-                                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </p>
-                                        </div>
+{{--                                        <div class="right-part">--}}
+{{--                                            <h4 class="item-title">مهندسی نرم افزار</h4>--}}
+{{--                                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </p>--}}
+{{--                                        </div>--}}
                                     </div>
 
                                     <div class="timeline-item clearfix">
-                                        <div class="left-part">
-                                            <h5 class="item-period">1390</h5>
-                                            <span class="item-company">دانشکده مهندسی</span>
-                                        </div>
+{{--                                        <div class="left-part">--}}
+{{--                                            <h5 class="item-period">1398</h5>--}}
+{{--                                            <span class="item-company">مهندسی نقشه برداری</span>--}}
+{{--                                        </div>--}}
                                         <div class="divider"></div>
-                                        <div class="right-part">
-                                            <h4 class="item-title">طراحی گرافیک</h4>
-                                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>
-                                        </div>
+{{--                                        <div class="right-part">--}}
+{{--                                            <h4 class="item-title">طراحی گرافیک</h4>--}}
+{{--                                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است </p>--}}
+{{--                                        </div>--}}
                                     </div>
                                 </div>
 
