@@ -11,16 +11,16 @@
 {{--    <link rel="shortcut icon" href="favicon.ico">--}}
 
 
-    <link rel="stylesheet" href="{{asset('assets/css/reset.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('assets/css/bootstrap-grid.min.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('assets/css/animations.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('assets/css/perfect-scrollbar.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('assets/css/owl.carousel.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('assets/css/magnific-popup.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('assets/css/dark-1.css')}}" type="text/css">
-    <link rel="stylesheet" href="{{asset('assets/css/rtl.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{\Illuminate\Support\Facades\URL::asset('assets/css/reset.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{\Illuminate\Support\Facades\URL::asset('assets/css/bootstrap-grid.min.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{\Illuminate\Support\Facades\URL::asset('assets/css/animations.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{\Illuminate\Support\Facades\URL::asset('assets/css/perfect-scrollbar.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{\Illuminate\Support\Facades\URL::asset('assets/css/owl.carousel.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{\Illuminate\Support\Facades\URL::asset('assets/css/magnific-popup.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{\Illuminate\Support\Facades\URL::asset('assets/css/dark-1.css')}}" type="text/css">
+    <link rel="stylesheet" href="{{\Illuminate\Support\Facades\URL::asset('assets/css/rtl.css')}}" type="text/css">
 
-    <script src="{{asset('assets/js/modernizr.custom.js')}}"></script>
+    <script src="{{\Illuminate\Support\Facades\URL::asset('assets/js/modernizr.custom.js')}}"></script>
 </head>
 
 <body>
@@ -43,7 +43,7 @@
         <header id="site_header" class="header mobile-menu-hide">
             <div class="header-content">
                 <div class="header-photo">
-                    <img src="{{asset('assets/img/myphoto.jpg')}}" alt="علی حیدری">
+                    <img src="{{\Illuminate\Support\Facades\URL::asset('assets/img/myphoto.jpg')}}" alt="علی حیدری">
                 </div>
                 <div class="header-titles">
                     <h2>علی حیدری</h2>
@@ -99,7 +99,7 @@
             </div>
 
             <div class="header-buttons">
-                <a href="{{asset('assets/myfiles/MyResume (2).pdf')}}" target="_blank" class="btn btn-primary">دانلود رزومه</a>
+                <a href="{{\Illuminate\Support\Facades\URL::asset('assets/myfiles/MyResume (2).pdf')}}" target="_blank" class="btn btn-primary">دانلود رزومه</a>
             </div>
 
 {{--            <div class="copyrights">© تمام حقوق محفوظ می باشند - ارائه اختصاصی در راستچین</div>--}}
@@ -1259,23 +1259,23 @@
 </div>
 
 <script data-cfasync="false" src="https://lmpixels.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-<script src="{{asset('assets/js/jquery-2.1.3.min.js')}}"></script>
-<script src="{{asset('assets/js/modernizr.custom.js')}}"></script>
-<script src="{{asset('assets/js/animating.js')}}"></script>
+<script src="{{\Illuminate\Support\Facades\URL::asset('assets/js/jquery-2.1.3.min.js')}}"></script>
+<script src="{{\Illuminate\Support\Facades\URL::asset('assets/js/modernizr.custom.js')}}"></script>
+<script src="{{\Illuminate\Support\Facades\URL::asset('assets/js/animating.js')}}"></script>
 
-<script src="{{asset('assets/js/imagesloaded.pkgd.min.js')}}"></script>
+<script src="{{\Illuminate\Support\Facades\URL::asset('assets/js/imagesloaded.pkgd.min.js')}}"></script>
 <script src='https://www.google.com/recaptcha/api.js'></script>
 
-<script src='{{asset('assets/js/perfect-scrollbar.min.js')}}'></script>
-<script src='{{asset('assets/js/jquery.shuffle.min.js')}}'></script>
-<script src='{{asset('assets/js/masonry.pkgd.min.js')}}'></script>
-<script src='{{asset('assets/js/owl.carousel.min.js')}}'></script>
-<script src="{{asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
+<script src='{{\Illuminate\Support\Facades\URL::asset('assets/js/perfect-scrollbar.min.js')}}'></script>
+<script src='{{\Illuminate\Support\Facades\URL::asset('assets/js/jquery.shuffle.min.js')}}'></script>
+<script src='{{\Illuminate\Support\Facades\URL::asset('assets/js/masonry.pkgd.min.js')}}'></script>
+<script src='{{\Illuminate\Support\Facades\URL::asset('assets/js/owl.carousel.min.js')}}'></script>
+<script src="{{\Illuminate\Support\Facades\URL::asset('assets/js/jquery.magnific-popup.min.js')}}"></script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
-<script src="{{asset('assets/js/jquery.googlemap.js')}}"></script>
-<script src="{{asset('assets/js/validator.js')}}"></script>
-<script src="{{asset('assets/js/main.js')}}"></script>
+<script src="{{\Illuminate\Support\Facades\URL::asset('assets/js/jquery.googlemap.js')}}"></script>
+<script src="{{\Illuminate\Support\Facades\URL::asset('assets/js/validator.js')}}"></script>
+<script src="{{\Illuminate\Support\Facades\URL::asset('assets/js/main.js')}}"></script>
 
 </body>
 </html>
