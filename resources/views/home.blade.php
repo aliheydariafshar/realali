@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>سایت شخصی علی حیدری </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="سایت شخصی علی حیدری" />
+{{--    <meta name="description" content="سایت شخصی علی حیدری" />--}}
     <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
     <meta name="author" content="EliasMahmoudi" />
 {{--    <link rel="shortcut icon" href="favicon.ico">--}}
