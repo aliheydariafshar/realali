@@ -9,13 +9,13 @@ class ContactMeController extends Controller
 {
     public function store(Request $request)
     {
-        $request->validate([
-            'name'                 => 'required',
-            'subject'              => 'required',
-            'email'                => 'required|email',
-            'message'              => 'required',
-            'g-recaptcha-response' => 'recaptcha',
-        ]);
+//        $request->validate([
+//            'name'                 => 'required',
+//            'subject'              => 'required',
+//            'email'                => 'required|email',
+//            'message'              => 'required',
+//            'g-recaptcha-response' => 'recaptcha',
+//        ]);
         ContactMe::create([
             'name'    => $request->name,
             'subject' => $request->subject,
