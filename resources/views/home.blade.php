@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html dir="rtl" lang="fa-IR" class="no-js">
 <head>
+    eCaptcha::htmlFormSnippet()
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>سایت شخصی علی حیدری </title>
@@ -1255,29 +1256,29 @@
                                     <h3>چطور میتوانم <span>کمکتون کنم؟</span></h3>
                                 </div>
 
-                                <form id="contact_form" class="contact-form" action="contact_form/contact_form.php" method="post">
-
+                                <form  class="contact-form" action="{{route('message.store')}}" method="Post">
+                                    @csrf
                                     <div class="messages"></div>
 
                                     <div class="controls two-columns">
                                         <div class="fields clearfix">
                                             <div class="left-column">
                                                 <div class="form-group form-group-with-icon">
-                                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="نام الزامی می باشد.">
+                                                    <input id="form_name" type="text" name="name" class="form-control" placeholder=""  data-error="نام الزامی می باشد.">
                                                     <label>نام کامل</label>
                                                     <div class="form-control-border"></div>
                                                     <div class="help-block with-errors"></div>
                                                 </div>
 
                                                 <div class="form-group form-group-with-icon">
-                                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="ایمیل معتبر الزامی می باشد.">
+                                                    <input id="form_email" type="email" name="email" class="form-control" placeholder=""  data-error="ایمیل معتبر الزامی می باشد.">
                                                     <label>آدرس ایمیل</label>
                                                     <div class="form-control-border"></div>
                                                     <div class="help-block with-errors"></div>
                                                 </div>
 
                                                 <div class="form-group form-group-with-icon">
-                                                    <input id="form_subject" type="text" name="subject" class="form-control" placeholder="" required="required" data-error="موضوع الزامی می باشد.">
+                                                    <input id="form_subject" type="text" name="subject" class="form-control" placeholder=""  data-error="موضوع الزامی می باشد.">
                                                     <label>موضوع</label>
                                                     <div class="form-control-border"></div>
                                                     <div class="help-block with-errors"></div>
@@ -1285,7 +1286,7 @@
                                             </div>
                                             <div class="right-column">
                                                 <div class="form-group form-group-with-icon">
-                                                    <textarea id="form_message" name="message" class="form-control" placeholder="" rows="7" required="required" data-error="لطفا، یک پیام بنویسید."></textarea>
+                                                    <textarea id="form_message" name="message" class="form-control" placeholder="" rows="7"  data-error="لطفا، یک پیام بنویسید."></textarea>
                                                     <label>پیام</label>
                                                     <div class="form-control-border"></div>
                                                     <div class="help-block with-errors"></div>
@@ -1293,7 +1294,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="g-recaptcha" data-sitekey="6Le9HrgZAAAAAIOwDqpl59h-qLyDdYA2NlYylxfL"></div>
+                                        <div class="g-recaptcha" data-sitekey="6Lc0K8IZAAAAAHYXAOlFp2bdaoKp732BBMuypqKX"></div>
 
                                         <input type="submit" class="button btn-send" value="ارسال پیام">
                                     </div>

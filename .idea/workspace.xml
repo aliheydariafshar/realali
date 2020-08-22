@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfee4293-046c-4ae6-b246-89b83f3509a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/ContactMe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactMeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/recaptcha.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_22_161148_create_contact_mes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/realali.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/realali.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,6 +130,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/biscolab/laravel-recaptcha" />
     </include_path>
   </component>
   <component name="ProjectId" id="1fiWV2sKbRC4DXQcZ06UOTJpUlL" />
@@ -127,6 +139,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/img" />
@@ -162,7 +175,7 @@
       <workItem from="1597959383904" duration="462000" />
       <workItem from="1597983129142" duration="1801000" />
       <workItem from="1598072859670" duration="672000" />
-      <workItem from="1598079156500" duration="4169000" />
+      <workItem from="1598079156500" duration="11202000" />
     </task>
     <task id="LOCAL-00001" summary="edits">
       <created>1597943893507</created>
@@ -178,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597945081027</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="edits">
+      <created>1598093840749</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598093840749</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,17 +209,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="edits" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1597945079924">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1598093839507">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1597945079924" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1597945083360">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598093839507" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1598093843228">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1597945083360" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598093843228" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597943733846">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597943733846" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598102341335">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598102341335" />
   </component>
 </project>
