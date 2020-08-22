@@ -26,8 +26,7 @@
 
 <body>
 <!-- Animated Background -->
-{{--<div class="lm-animated-bg" style="background-image: url(as);"></div>--}}
-<!-- /Animated Background -->
+<div class="lm-animated-bg transition" style="background-image: url('assets/img/main_bg.png'); background-position: calc(50% + 9.42109px) calc(50% + 1.14472px);"></div><!-- /Animated Background -->
 
 <!-- Loading animation -->
 {{--<div class="preloader">--}}
