@@ -569,37 +569,81 @@
                                 <div class="timeline timeline-second-style clearfix">
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period">1395 - تاکنون</h5>
-                                            <span class="item-company">گوگل</span>
+                                            <h5 class="item-period"> تیر و مرداد 1399</h5>
+                                            <span class="item-company">دینوک</span>
                                         </div>
                                         <div class="divider"></div>
                                         <div class="right-part">
-                                            <h4 class="item-title">رهبری گروه Ui/Ux</h4>
-                                            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است </p>
+                                            <h4 class="item-title">توسعه سایت</h4>
+                                            <p>دیباگ و توسعه سایت(dinook.ir) در بخش بک اند و فرانت اند</p>
                                         </div>
                                     </div>
 
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period">1393 - 1395</h5>
-                                            <span class="item-company">ادوبی</span>
+                                            <h5 class="item-period">خرداد 1399</h5>
+                                            <span class="item-company">برنامه تلویزیونی شهروند و مافیا</span>
                                         </div>
                                         <div class="divider"></div>
                                         <div class="right-part">
-                                            <h4 class="item-title">طراح ارشد Ui/Ux</h4>
-                                            <p>چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد </p>
+                                            <h4 class="item-title">توسعه سایت</h4>
+                                            <p>همکاری در توسعه سایت(shahrvandmafia.com)</p>
                                         </div>
                                     </div>
 
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period">1391 - 1393</h5>
-                                            <span class="item-company">گوگل</span>
+                                            <h5 class="item-period">اردیبهشت 1399</h5>
+                                            <span class="item-company">پایگاه مطالعاتی کلام امامیه</span>
                                         </div>
                                         <div class="divider"></div>
                                         <div class="right-part">
-                                            <h4 class="item-title">طراح Ui/Ux</h4>
-                                            <p>کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد</p>
+                                            <h4 class="item-title">توسعه سایت</h4>
+                                            <p>دیباگ و توسعه سایت(www.ekalam.ir) در بخش بک اند و فرانت اند</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period">فروردین 1399</h5>
+                                            <span class="item-company">مامعین</span>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title">توسعه سایت</h4>
+                                            <p>دیباگ و توسعه سایت(maemaeen.ir) در بخش بک اند و فرانت اند</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period">اسفند 1398</h5>
+                                            <span class="item-company">برنجکار</span>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title">توسعه سایت</h4>
+                                            <p>دیباگ و توسعه سایت(berenjkar.ir) در بخش بک اند و فرانت اند</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period">مهر تا بهمن1398</h5>
+                                            <span class="item-company">موسسه زیتون</span>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title">کارشناس وب</h4>
+                                            <p>دیباگ و توسعه سایت های(www.ekalam.ir و zeitoon.org) در بخش بک اند و فرانت اند</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period">تیر 1397 - مهر 1398</h5>
+                                            <span class="item-company">شرکت آمانج</span>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title">مدیریت وبسایت</h4>
+                                            <p>مدیریت سایت شرکت و توسعه آن در بخش فرانت اند</p>
                                         </div>
                                     </div>
                                 </div>
@@ -840,28 +884,37 @@
                                         <div class="skill-percentage" style="width: 70%"></div>
                                     </div>
                                     <!-- End of Skill 23 -->
+                                    <!-- Skill 24 -->
+                                    <div class="skill clearfix">
+                                        <h4>CSS </h4>
+                                        <div class="skill-value">100%</div>
+                                    </div>
+                                    <div class="skill-container skill-9">
+                                        <div class="skill-percentage" style="width: 100%"></div>
+                                    </div>
+                                    <!-- End of Skill 24 -->
                                 </div>
                                 <!-- End of Coding Skills -->
 
                                 <div class="white-space-10"></div>
 
-                                <!-- Knowledges -->
-                                <div class="block-title">
-                                    <h3>دانش</h3>
-                                </div>
+{{--                                <!-- Knowledges -->--}}
+{{--                                <div class="block-title">--}}
+{{--                                    <h3>دانش</h3>--}}
+{{--                                </div>--}}
 
-                                <ul class="knowledges">
-                                    <li>بازاریابی</li>
-                                    <li>چاپ</li>
-                                    <li>طراحی دیجیتال</li>
-                                    <li>رسانه های اجتماعی</li>
-                                    <li>مدیریت زمان</li>
-                                    <li>ارتباطات</li>
-                                    <li>حل مسئله</li>
-                                    <li>شبکه اجتماعی</li>
-                                    <li>انعطاف پذیری</li>
-                                </ul>
-                                <!-- End of Knowledges -->
+{{--                                <ul class="knowledges">--}}
+{{--                                    <li>بازاریابی</li>--}}
+{{--                                    <li>چاپ</li>--}}
+{{--                                    <li>طراحی دیجیتال</li>--}}
+{{--                                    <li>رسانه های اجتماعی</li>--}}
+{{--                                    <li>مدیریت زمان</li>--}}
+{{--                                    <li>ارتباطات</li>--}}
+{{--                                    <li>حل مسئله</li>--}}
+{{--                                    <li>شبکه اجتماعی</li>--}}
+{{--                                    <li>انعطاف پذیری</li>--}}
+{{--                                </ul>--}}
+{{--                                <!-- End of Knowledges -->--}}
                             </div>
                             <!-- End of Skills & Certificates -->
                         </div>
@@ -882,18 +935,18 @@
                             <div class="col-xs-12 col-sm-6">
                                 <div class="certificate-item clearfix">
                                     <div class="certi-logo">
-                                        <img src="{{asset('assets/img/clients/client-1.png')}}" alt="لوگو">
+                                        <img src="https://amanjacademy.com/wp-content/uploads/2020/02/amanj-logo-type-w-full.svg" alt="لوگو">
                                     </div>
 
                                     <div class="certi-content">
                                         <div class="certi-title">
-                                            <h4>روانشناسی بین المللی طراحی</h4>
+                                            <h4>آموزش laravel</h4>
                                         </div>
-                                        <div class="certi-id">
-                                            <span>شناسه عضویت: XXXX</span>
-                                        </div>
+{{--                                        <div class="certi-id">--}}
+{{--                                            <span>شناسه عضویت: XXXX</span>--}}
+{{--                                        </div>--}}
                                         <div class="certi-date">
-                                            <span>29 مرداد 1398</span>
+                                            <span> شهریور 1398</span>
                                         </div>
                                         <div class="certi-company">
                                             <span></span>
@@ -907,18 +960,18 @@
                             <div class="col-xs-12 col-sm-6">
                                 <div class="certificate-item clearfix">
                                     <div class="certi-logo">
-                                        <img src="{{asset('assets/img/clients/client-1.png')}}" alt="لوگو">
+                                        <img src="https://amanjacademy.com/wp-content/uploads/2020/02/amanj-logo-type-w-full.svg" alt="لوگو">
                                     </div>
 
                                     <div class="certi-content">
                                         <div class="certi-title">
-                                            <h4>روانشناسی بین المللی طراحی</h4>
+                                            <h4>آموزش جامع وردپرس</h4>
                                         </div>
-                                        <div class="certi-id">
-                                            <span>شناسه عضویت: XXXX</span>
-                                        </div>
+{{--                                        <div class="certi-id">--}}
+{{--                                            <span>شناسه عضویت: XXXX</span>--}}
+{{--                                        </div>--}}
                                         <div class="certi-date">
-                                            <span>29 مرداد 1398</span>
+                                            <span> تیر 1397</span>
                                         </div>
                                         <div class="certi-company">
                                             <span></span>
@@ -1165,21 +1218,21 @@
                             <div class="col-xs-12 col-sm-4">
                                 <div class="lm-info-block gray-default">
                                     <i class="lnr lnr-map-marker"></i>
-                                    <h4>تهران</h4>
+                                    <h4>تهران و کرمان</h4>
                                     <span class="lm-info-block-value"></span>
                                     <span class="lm-info-block-text"></span>
                                 </div>
 
                                 <div class="lm-info-block gray-default">
                                     <i class="lnr lnr-phone-handset"></i>
-                                    <h4>09123456789</h4>
+                                    <h4>09197304278</h4>
                                     <span class="lm-info-block-value"></span>
                                     <span class="lm-info-block-text"></span>
                                 </div>
 
                                 <div class="lm-info-block gray-default">
                                     <i class="lnr lnr-envelope"></i>
-                                    <h4><a href="#">email@site.com</a></h4>
+                                    <h4><a href="#">realalii@yahoo.com</a></h4>
                                     <span class="lm-info-block-value"></span>
                                     <span class="lm-info-block-text"></span>
                                 </div>
@@ -1197,7 +1250,7 @@
 
                             <!-- Contact Form -->
                             <div class="col-xs-12 col-sm-8">
-                                <div id="map" class="map"></div>
+{{--                                <div id="map" class="map"></div>--}}
                                 <div class="block-title">
                                     <h3>چطور میتوانم <span>کمکتون کنم؟</span></h3>
                                 </div>
