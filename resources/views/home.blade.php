@@ -881,7 +881,7 @@
                                         <div class="skill-value">80%</div>
                                     </div>
                                     <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 70%"></div>
+                                        <div class="skill-percentage" style="width: 80%"></div>
                                     </div>
                                     <!-- End of Skill 23 -->
                                     <!-- Skill 24 -->
