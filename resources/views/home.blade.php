@@ -877,8 +877,8 @@
                                     <!-- End of Skill 22 -->
                                     <!-- Skill 23 -->
                                     <div class="skill clearfix">
-                                        <h4>Rest Api </h4>
-                                        <div class="skill-value">70%</div>
+                                        <h4>Restfull Api </h4>
+                                        <div class="skill-value">80%</div>
                                     </div>
                                     <div class="skill-container skill-9">
                                         <div class="skill-percentage" style="width: 70%"></div>
@@ -891,6 +891,15 @@
                                     </div>
                                     <div class="skill-container skill-9">
                                         <div class="skill-percentage" style="width: 100%"></div>
+                                    </div>
+                                    <!-- End of Skill 24 -->
+                                    <!-- Skill 24 -->
+                                    <div class="skill clearfix">
+                                        <h4>Lumen </h4>
+                                        <div class="skill-value">80%</div>
+                                    </div>
+                                    <div class="skill-container skill-9">
+                                        <div class="skill-percentage" style="width: 80%"></div>
                                     </div>
                                     <!-- End of Skill 24 -->
                                 </div>
