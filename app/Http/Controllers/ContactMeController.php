@@ -26,7 +26,7 @@ class ContactMeController extends Controller
             'content' => $request->message,
         ]);
 
-        Notification::send(User::all(),new sendMail());
+//        Notification::send(User::all(),new sendMail());
 
         return redirect()->back();
     }
