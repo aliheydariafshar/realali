@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfee4293-046c-4ae6-b246-89b83f3509a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +130,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
@@ -166,6 +166,7 @@
       <workItem from="1598079156500" duration="15706000" />
       <workItem from="1598181104577" duration="5883000" />
       <workItem from="1598808225673" duration="362000" />
+      <workItem from="1600019760256" duration="2052000" />
     </task>
     <task id="LOCAL-00001" summary="edits">
       <created>1597943893507</created>
@@ -251,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598808314977</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="edits">
+      <created>1600019960246</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1600019960246</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,14 +270,20 @@
     <option name="LAST_COMMIT_MESSAGE" value="edits" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1598199714397">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="308" y="40" key="CommitChangelistDialog2" timestamp="1600019959336">
+      <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598199714397" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1598199717271">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="308" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1600019959336" />
+    <state x="129" y="95" key="DiffContextDialog" timestamp="1600020602760">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="129" y="95" key="DiffContextDialog/0.40.1366.728@0.40.1366.728" timestamp="1600020602760" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1600020612267">
+      <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598199717271" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1600020612267" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597943733846">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
