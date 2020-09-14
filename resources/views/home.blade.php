@@ -569,7 +569,30 @@
                                 <div class="timeline timeline-second-style clearfix">
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period"> تیر و مرداد 1399</h5>
+                                            <h5 class="item-period"> شهریور 1399</h5>
+                                            <span class="item-company">سایمان دیجیتال</span>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title">توسعه سایت</h4>
+                                            <p>پروژه تیمی توسعه سایت(http://saymandigital.com) شرکت</p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period"> شهریور 1399</h5>
+                                            <span class="item-company">آسون بیار</span>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title">توسعه api</h4>
+                                            <p>پروژه تیمی توسعه اپلیکیشن اندرویدی شرکت</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period"> تیر و مرداد و شهریور 1399</h5>
                                             <span class="item-company">دینوک</span>
                                         </div>
                                         <div class="divider"></div>
