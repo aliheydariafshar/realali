@@ -1,16 +1,11 @@
 <!DOCTYPE html>
-<html dir="rtl" lang="fa-IR" class="no-js">
+<html dir="rtl" lang="fa-IR">
 <head>
-    eCaptcha::htmlFormSnippet()
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>سایت شخصی علی حیدری </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     {{--    <meta name="description" content="سایت شخصی علی حیدری" />--}}
-    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio"/>
-    <meta name="author" content="EliasMahmoudi"/>
-    {{--    <link rel="shortcut icon" href="favicon.ico">--}}
-
 
     <link rel="stylesheet" href="{{\Illuminate\Support\Facades\URL::asset('assets/css/reset.css')}}" type="text/css">
     <link rel="stylesheet" href="{{\Illuminate\Support\Facades\URL::asset('assets/css/bootstrap-grid.min.css')}}"
@@ -25,8 +20,12 @@
           type="text/css">
     <link rel="stylesheet" href="{{\Illuminate\Support\Facades\URL::asset('assets/css/dark-1.css')}}" type="text/css">
     <link rel="stylesheet" href="{{\Illuminate\Support\Facades\URL::asset('assets/css/rtl.css')}}" type="text/css">
-
-    <script src="{{\Illuminate\Support\Facades\URL::asset('assets/js/modernizr.custom.js')}}"></script>
+    {!! htmlScriptTagJsApi([
+               'action' => 'homepage',
+               'callback_then' => 'callbackThen',
+               'callback_catch' => 'callbackCatch'
+           ]) !!}
+{{--    reCaptcha::htmlFormSnippet()--}}
 </head>
 
 <body>
@@ -1396,7 +1395,7 @@
 
     </div>
 </div>
-
+<script src="{{\Illuminate\Support\Facades\URL::asset('assets/js/modernizr.custom.js')}}"></script>
 <script data-cfasync="false"
         src="https://lmpixels.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script src="{{\Illuminate\Support\Facades\URL::asset('assets/js/jquery-2.1.3.min.js')}}"></script>
