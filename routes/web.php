@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/','HomeController@home');
+Route::get('/', [\App\Http\Controllers\HomeController::class, 'home']);
 
-Route::post('contact_me','ContactMeController@store')
+Route::post('contact_me', 'ContactMeController@store')
     ->name('message.store');
