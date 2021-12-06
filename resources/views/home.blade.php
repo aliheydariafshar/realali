@@ -49,7 +49,7 @@
         <header id="site_header" class="header mobile-menu-hide">
             <div class="header-content">
                 <div class="header-photo">
-                    <img src="{{asset('assets/img/profile.jpeg')}}" alt="علی حیدری">
+                    <img src="{{\Illuminate\Support\Facades\URL::asset('assets/img/myphoto.jpg')}}" alt="علی حیدری">
                 </div>
                 <div class="header-titles">
                     <h2>علی حیدری</h2>
