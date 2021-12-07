@@ -98,7 +98,7 @@
 
             <div class="social-links">
                 <ul>
-                    <li><a href="https://www.linkedin.com/in/ali-heydari-1a804a190/" target="_blank"><i
+                    <li><a href="https://www.linkedin.com/in/realali" target="_blank"><i
                                 class="fab fa-linkedin-in"></i></a></li>
                     <li><a href="https://github.com/heyddar" target="_blank"><i class="fab fa-github"></i></a></li>
                     <li><a href="https://t.me/realaliheydari" target="_blank"><i class="fab fa-telegram"></i></a></li>
