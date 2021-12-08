@@ -102,7 +102,7 @@
                 <ul>
                     <li><a href="https://www.linkedin.com/in/realali" target="_blank"><i
                                 class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="https://github.com/heyddar" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://github.com/aliheydariafshar" target="_blank"><i class="fab fa-github"></i></a></li>
                     <li><a href="https://t.me/aliheydariafshar" target="_blank"><i class="fab fa-telegram"></i></a></li>
                 </ul>
             </div>
