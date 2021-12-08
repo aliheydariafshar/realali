@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfee4293-046c-4ae6-b246-89b83f3509a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+    <list default="true" id="dfee4293-046c-4ae6-b246-89b83f3509a7" name="Default Changelist" comment="add changes">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/realali.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/realali.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +123,24 @@
       <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
       <path value="$PROJECT_DIR$/vendor/biscolab/laravel-recaptcha" />
       <path value="$PROJECT_DIR$/vendor/predis/predis" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/laravel/legacy-factories" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/graham-campbell/result-type" />
+      <path value="$PROJECT_DIR$/vendor/dflydev/dot-access-data" />
+      <path value="$PROJECT_DIR$/vendor/nette/schema" />
+      <path value="$PROJECT_DIR$/vendor/nette/utils" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/league/config" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/vendor/laravel/serializable-closure" />
+      <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1fiWV2sKbRC4DXQcZ06UOTJpUlL" />
@@ -131,15 +152,19 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/myfiles" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\realali\public\assets\myfiles" />
+      <recent name="E:\wamp64\www\realali\public\assets\img" />
       <recent name="E:\wamp64\www\realali" />
       <recent name="C:\wamp64\www\realali\public\assets\img" />
       <recent name="C:\wamp64\www\realali\public\assets" />
-      <recent name="C:\wamp64\www\realali\database\migrations" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\realali\public\assets\myfiles" />
     </key>
   </component>
   <component name="RunManager">
@@ -170,6 +195,9 @@
       <workItem from="1598808225673" duration="362000" />
       <workItem from="1600019760256" duration="4020000" />
       <workItem from="1600103852470" duration="410000" />
+      <workItem from="1638898493883" duration="2722000" />
+      <workItem from="1638906875765" duration="389000" />
+      <workItem from="1638982154605" duration="1780000" />
     </task>
     <task id="LOCAL-00001" summary="edits">
       <created>1597943893507</created>
@@ -276,7 +304,84 @@
       <option name="project" value="LOCAL" />
       <updated>1600103946530</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fix composer.lock">
+      <created>1638819299351</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1638819299352</updated>
+    </task>
+    <task id="LOCAL-00017" summary="change profile">
+      <created>1638821235345</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1638821235345</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix profile">
+      <created>1638822228903</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1638822228903</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add changes">
+      <created>1638822329165</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1638822329165</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fix">
+      <created>1638822436698</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1638822436698</updated>
+    </task>
+    <task id="LOCAL-00021" summary="fix linkedin link">
+      <created>1638902257568</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1638902257568</updated>
+    </task>
+    <task id="LOCAL-00022" summary="fix resume">
+      <created>1638903939884</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1638903939884</updated>
+    </task>
+    <task id="LOCAL-00023" summary="fix profile">
+      <created>1638904178282</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1638904178282</updated>
+    </task>
+    <task id="LOCAL-00024" summary="fix profile">
+      <created>1638906919709</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1638906919709</updated>
+    </task>
+    <task id="LOCAL-00025" summary="fix https">
+      <created>1638982948170</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1638982948170</updated>
+    </task>
+    <task id="LOCAL-00026" summary="fix redirect">
+      <created>1638983285496</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1638983285496</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,37 +389,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="edits" />
-    <option name="LAST_COMMIT_MESSAGE" value="edits" />
+    <MESSAGE value="fix composer.lock" />
+    <MESSAGE value="change profile" />
+    <MESSAGE value="add changes" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="fix linkedin link" />
+    <MESSAGE value="fix resume" />
+    <MESSAGE value="fix profile" />
+    <MESSAGE value="fix https" />
+    <MESSAGE value="fix redirect" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix redirect" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="40" key="CommitChangelistDialog2" timestamp="1600103945820">
+    <state x="308" y="40" key="CommitChangelistDialog2" timestamp="1638983284692">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1598199714397" />
-    <state x="308" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1600103945820" />
-    <state x="129" y="95" key="DiffContextDialog" timestamp="1600020602760">
+    <state x="308" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1638983284692" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1638983287085">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="129" y="95" key="DiffContextDialog/0.40.1366.728@0.40.1366.728" timestamp="1600020602760" />
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1600103948851">
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1638983287085" />
+    <state x="339" y="182" key="run.anything.popup" timestamp="1638904432458">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1598199717271" />
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1600103948851" />
-    <state x="500" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600103889868">
-      <screen x="0" y="40" width="1366" height="728" />
-    </state>
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1597943733846" />
-    <state x="500" y="318" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1366.728@0.40.1366.728" timestamp="1600103889868" />
-    <state x="390" y="137" width="585" height="534" key="find.popup" timestamp="1600030099479">
-      <screen x="0" y="40" width="1366" height="728" />
-    </state>
-    <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1598123065810" />
-    <state x="390" y="137" width="585" height="534" key="find.popup/0.40.1366.728@0.40.1366.728" timestamp="1600030099479" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1600029817261">
-      <screen x="0" y="40" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598197411233" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.40.1366.728@0.40.1366.728" timestamp="1600029817261" />
+    <state x="339" y="182" key="run.anything.popup/0.40.1366.728@0.40.1366.728" timestamp="1638904432458" />
   </component>
 </project>
