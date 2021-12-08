@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfee4293-046c-4ae6-b246-89b83f3509a7" name="Default Changelist" comment="add changes">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/realali.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/realali.iml" afterDir="false" />
+    <list default="true" id="dfee4293-046c-4ae6-b246-89b83f3509a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +194,8 @@
       <workItem from="1600103852470" duration="410000" />
       <workItem from="1638898493883" duration="2722000" />
       <workItem from="1638906875765" duration="389000" />
-      <workItem from="1638982154605" duration="1780000" />
+      <workItem from="1638982154605" duration="2676000" />
+      <workItem from="1638989669384" duration="606000" />
     </task>
     <task id="LOCAL-00001" summary="edits">
       <created>1597943893507</created>
@@ -381,7 +379,21 @@
       <option name="project" value="LOCAL" />
       <updated>1638983285496</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add changes">
+      <created>1638984547885</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1638984547885</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fix .gitignore">
+      <created>1638984635845</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1638984635845</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,24 +403,25 @@
     <MESSAGE value="edits" />
     <MESSAGE value="fix composer.lock" />
     <MESSAGE value="change profile" />
-    <MESSAGE value="add changes" />
     <MESSAGE value="fix" />
     <MESSAGE value="fix linkedin link" />
     <MESSAGE value="fix resume" />
     <MESSAGE value="fix profile" />
     <MESSAGE value="fix https" />
     <MESSAGE value="fix redirect" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix redirect" />
+    <MESSAGE value="add changes" />
+    <MESSAGE value="fix .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix .gitignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="40" key="CommitChangelistDialog2" timestamp="1638983284692">
+    <state x="308" y="40" key="CommitChangelistDialog2" timestamp="1638984634605">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="308" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1638983284692" />
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1638983287085">
+    <state x="308" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1638984634605" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1638984638125">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1638983287085" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1638984638125" />
     <state x="339" y="182" key="run.anything.popup" timestamp="1638904432458">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
