@@ -108,7 +108,7 @@
             </div>
 
             <div class="header-buttons">
-                <a href="{{\Illuminate\Support\Facades\URL::asset('assets/myfiles/MyResume1.pdf')}}" target="_blank"
+                <a href="{{\Illuminate\Support\Facades\URL::asset('assets/myfiles/MyResume-original.pdf')}}" target="_blank"
                    class="btn btn-primary">دانلود رزومه</a>
             </div>
 
