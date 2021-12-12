@@ -1371,7 +1371,7 @@
                                             </div>
                                             <div class="right-column">
                                                 <div class="form-group form-group-with-icon">
-                                                    <textarea id="form_message" name="message" class="form-control"
+                                                    <textarea id="form_message" name="content" class="form-control"
                                                               placeholder="" rows="7"
                                                               data-error="لطفا، یک پیام بنویسید."></textarea>
                                                     <label>پیام</label>

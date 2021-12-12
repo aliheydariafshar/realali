@@ -16,7 +16,7 @@ class ContactMeController extends Controller
             'name' => 'required|string',
             'subject' => 'required|string',
             'email' => 'required|email',
-            'message' => 'required|string',
+            'content' => 'required|string',
             'g-recaptcha-response' => 'recaptcha',
         ]);
         ContactMe::query()->create($request->all());

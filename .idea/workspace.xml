@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dfee4293-046c-4ae6-b246-89b83f3509a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/ContactMe.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/ContactMe.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactMeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactMeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/myfiles/MyResume (2).pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/myfiles/MyResume1.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,6 +202,7 @@
       <workItem from="1639069406038" duration="589000" />
       <workItem from="1639070149128" duration="805000" />
       <workItem from="1639165200851" duration="1341000" />
+      <workItem from="1639335522089" duration="945000" />
     </task>
     <task id="LOCAL-00001" summary="edits">
       <created>1597943893507</created>
@@ -425,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639070321700</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="refactor">
+      <created>1639335806059</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1639335806059</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,17 +447,18 @@
     <MESSAGE value="fix .gitignore" />
     <MESSAGE value="fix id" />
     <MESSAGE value="fix resume" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix resume" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="40" key="CommitChangelistDialog2" timestamp="1639070319973">
+    <state x="308" y="40" key="CommitChangelistDialog2" timestamp="1639335804459">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="308" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1639070319973" />
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1639070323322">
+    <state x="308" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1639335804459" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1639335809586">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1639070323322" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1639335809586" />
     <state x="339" y="182" key="run.anything.popup" timestamp="1638904432458">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
