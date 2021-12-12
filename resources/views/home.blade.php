@@ -25,7 +25,7 @@
                'callback_then' => 'callbackThen',
                'callback_catch' => 'callbackCatch'
            ]) !!}
-{{--    <link rel="shortcut icon" type="image/x-icon" href="{{\Illuminate\Support\Facades\URL::asset('assets/img/profile.jpeg')}}" />--}}
+    {{--    <link rel="shortcut icon" type="image/x-icon" href="{{\Illuminate\Support\Facades\URL::asset('assets/img/profile.jpeg')}}" />--}}
 
     {{--    reCaptcha::htmlFormSnippet()--}}
 </head>
@@ -102,13 +102,15 @@
                 <ul>
                     <li><a href="https://www.linkedin.com/in/realali" target="_blank"><i
                                 class="fab fa-linkedin-in"></i></a></li>
-                    <li><a href="https://github.com/aliheydariafshar" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://github.com/aliheydariafshar" target="_blank"><i class="fab fa-github"></i></a>
+                    </li>
                     <li><a href="https://t.me/aliheydariafshar" target="_blank"><i class="fab fa-telegram"></i></a></li>
                 </ul>
             </div>
 
             <div class="header-buttons">
-                <a href="{{\Illuminate\Support\Facades\URL::asset('assets/myfiles/MyResume-original.pdf')}}" target="_blank"
+                <a href="{{\Illuminate\Support\Facades\URL::asset('assets/myfiles/MyResume-original.pdf')}}"
+                   target="_blank"
                    class="btn btn-primary">دانلود رزومه</a>
             </div>
 

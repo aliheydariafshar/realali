@@ -13,21 +13,16 @@ class ContactMeController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'name'                 => 'required',
-            'subject'              => 'required',
-            'email'                => 'required|email',
-            'message'              => 'required',
-            'g-recaptcha-response' => 'required',
+            'name' => 'required|string',
+            'subject' => 'required|string',
+            'email' => 'required|email',
+            'message' => 'required|string',
+            'g-recaptcha-response' => 'recaptcha',
         ]);
-        ContactMe::create([
-            'name'    => $request->name,
-            'subject' => $request->subject,
-            'email'   => $request->email,
-            'content' => $request->message,
-        ]);
+        ContactMe::query()->create($request->all());
 
 //        Notification::send(User::all(),new sendMail());
 
-        return redirect()->back();
+        return back()->with('success', 'پیام شما با موفقیت ثبت شد.');
     }
 }
