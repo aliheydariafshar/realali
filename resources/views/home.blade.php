@@ -46,12 +46,12 @@
 <!-- /Loading animation -->
 
 <div class="page">
+    @if(Session::has('success'))
+        <div class="alert alert-success mt-3">
+            {{ Session::get('success') }}
+        </div>
+    @endif
     <div class="page-content">
-        @if(Session::has('success'))
-            <div class="alert alert-success">
-                {{ Session::get('success') }}
-            </div>
-        @endif
         <header id="site_header" class="header mobile-menu-hide">
             <div class="header-content">
                 <div class="header-photo">
