@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dfee4293-046c-4ae6-b246-89b83f3509a7" name="Default Changelist" comment="">
+    <list default="true" id="dfee4293-046c-4ae6-b246-89b83f3509a7" name="Default Changelist" comment="fix form">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactMeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactMeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,6 +204,7 @@
       <workItem from="1639070149128" duration="805000" />
       <workItem from="1639165200851" duration="1341000" />
       <workItem from="1639335522089" duration="945000" />
+      <workItem from="1639508676956" duration="796000" />
     </task>
     <task id="LOCAL-00001" summary="edits">
       <created>1597943893507</created>
@@ -451,10 +453,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="308" y="40" key="CommitChangelistDialog2" timestamp="1639335804459">
+    <state x="308" y="40" key="CommitChangelistDialog2" timestamp="1639425544950">
       <screen x="0" y="40" width="1366" height="728" />
     </state>
-    <state x="308" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1639335804459" />
+    <state x="308" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1639425544950" />
     <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1639335809586">
       <screen x="0" y="40" width="1366" height="728" />
     </state>

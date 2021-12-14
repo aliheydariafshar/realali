@@ -47,7 +47,11 @@
 
 <div class="page">
     <div class="page-content">
-
+        @if(Session::has('success'))
+            <div class="alert alert-success">
+                {{ Session::get('success') }}
+            </div>
+        @endif
         <header id="site_header" class="header mobile-menu-hide">
             <div class="header-content">
                 <div class="header-photo">
@@ -1345,7 +1349,7 @@
                                             <div class="left-column">
                                                 <div class="form-group form-group-with-icon">
                                                     <input id="form_name" type="text" name="name" class="form-control"
-                                                           placeholder="" data-error="نام الزامی می باشد.">
+                                                           placeholder="" data-error="نام الزامی می باشد." required>
                                                     <label>نام کامل</label>
                                                     <div class="form-control-border"></div>
                                                     <div class="help-block with-errors"></div>
@@ -1354,7 +1358,7 @@
                                                 <div class="form-group form-group-with-icon">
                                                     <input id="form_email" type="email" name="email"
                                                            class="form-control" placeholder=""
-                                                           data-error="ایمیل معتبر الزامی می باشد.">
+                                                           data-error="ایمیل معتبر الزامی می باشد." required>
                                                     <label>آدرس ایمیل</label>
                                                     <div class="form-control-border"></div>
                                                     <div class="help-block with-errors"></div>
@@ -1363,7 +1367,7 @@
                                                 <div class="form-group form-group-with-icon">
                                                     <input id="form_subject" type="text" name="subject"
                                                            class="form-control" placeholder=""
-                                                           data-error="موضوع الزامی می باشد.">
+                                                           data-error="موضوع الزامی می باشد." required>
                                                     <label>موضوع</label>
                                                     <div class="form-control-border"></div>
                                                     <div class="help-block with-errors"></div>
@@ -1373,7 +1377,7 @@
                                                 <div class="form-group form-group-with-icon">
                                                     <textarea id="form_message" name="content" class="form-control"
                                                               placeholder="" rows="7"
-                                                              data-error="لطفا، یک پیام بنویسید."></textarea>
+                                                              data-error="لطفا، یک پیام بنویسید." required></textarea>
                                                     <label>پیام</label>
                                                     <div class="form-control-border"></div>
                                                     <div class="help-block with-errors"></div>
@@ -1419,6 +1423,9 @@
 <script src="{{\Illuminate\Support\Facades\URL::asset('assets/js/jquery.googlemap.js')}}"></script>
 <script src="{{\Illuminate\Support\Facades\URL::asset('assets/js/validator.js')}}"></script>
 <script src="{{\Illuminate\Support\Facades\URL::asset('assets/js/main.js')}}"></script>
-
+{{--<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>--}}
+<script>
+    // swal("آفرین!", "پیام شما با موفقیت ثبت شد.", "success");
+</script>
 </body>
 </html>
