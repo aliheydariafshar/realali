@@ -47,7 +47,7 @@
 
 <div class="page">
     @if(Session::has('success'))
-        <div class="alert alert-success mt-3">
+        <div class="alert alert-success" style="margin-top: 50px">
             {{ Session::get('success') }}
         </div>
     @endif
