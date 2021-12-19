@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-    {{--    <meta name="description" content="سایت شخصی علی حیدری" />--}}
+    <meta name="description" content="سایت شخصی علی حیدری"/>
 
     <link rel="stylesheet" href="{{\Illuminate\Support\Facades\URL::asset('assets/css/reset.css')}}" type="text/css">
     <link rel="stylesheet" href="{{\Illuminate\Support\Facades\URL::asset('assets/css/bootstrap-grid.min.css')}}"
