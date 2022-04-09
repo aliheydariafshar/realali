@@ -25,7 +25,7 @@
                'callback_then' => 'callbackThen',
                'callback_catch' => 'callbackCatch'
            ]) !!}
-    {{--    <link rel="shortcut icon" type="image/x-icon" href="{{\Illuminate\Support\Facades\URL::asset('assets/img/profile.jpeg')}}" />--}}
+        <link rel="shortcut icon" type="image/x-icon" href="{{\Illuminate\Support\Facades\URL::asset('assets/img/asli-02.jpg')}}" />
 
     {{--    reCaptcha::htmlFormSnippet()--}}
 </head>
