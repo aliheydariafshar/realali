@@ -108,7 +108,7 @@
                                 class="fab fa-linkedin-in"></i></a></li>
                     <li><a href="https://github.com/aliheydariafshar" target="_blank"><i class="fab fa-github"></i></a>
                     </li>
-                    <li><a href="https://t.me/aliheydariafshar" target="_blank"><i class="fab fa-telegram"></i></a></li>
+                    <li><a href="https://t.me/heydarde" target="_blank"><i class="fab fa-telegram"></i></a></li>
                 </ul>
             </div>
 
@@ -191,23 +191,13 @@
                                 <div class="info-list">
                                     <ul>
                                         <li>
-                                            <span class="title">سن</span>
-                                            <span class="value">25</span>
-                                        </li>
-
-                                        <li>
-                                            <span class="title">ملیت</span>
-                                            <span class="value">ایرانی</span>
-                                        </li>
-
-                                        <li>
-                                            <span class="title">آدرس</span>
-                                            <span class="value">ایران</span>
+                                            <span class="title">متولد</span>
+                                            <span class="value">1375</span>
                                         </li>
 
                                         <li>
                                             <span class="title">ایمیل</span>
-                                            <span class="value"><a href="#">realalii@yahoo.com</a></span>
+                                            <span class="value"><a href="#">heydariali.it@gmail.com</a></span>
                                         </li>
 
                                         <li>
@@ -1303,7 +1293,7 @@
                             <div class="col-xs-12 col-sm-4">
                                 <div class="lm-info-block gray-default">
                                     <i class="lnr lnr-map-marker"></i>
-                                    <h4>تهران و کرمان</h4>
+                                    <h4>همه جا</h4>
                                     <span class="lm-info-block-value"></span>
                                     <span class="lm-info-block-text"></span>
                                 </div>
@@ -1317,7 +1307,7 @@
 
                                 <div class="lm-info-block gray-default">
                                     <i class="lnr lnr-envelope"></i>
-                                    <h4><a href="#">realalii@yahoo.com</a></h4>
+                                    <h4><a href="#">heydariali.it@gmail.com</a></h4>
                                     <span class="lm-info-block-value"></span>
                                     <span class="lm-info-block-text"></span>
                                 </div>
