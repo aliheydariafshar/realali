@@ -712,20 +712,10 @@
 
                                 <!-- Coding Skills -->
                                 <div class="block-title">
-                                    <h3>مهارت <span>کدنویسی</span></h3>
+                                    <h3>مهارت ها</h3>
                                 </div>
 
                                 <div class="skills-info skills-second-style">
-                                    <!-- Skill 5 -->
-                                    <div class="skill clearfix">
-                                        <h4>Laravel</h4>
-                                        <div class="skill-value">100%</div>
-                                    </div>
-                                    <div class="skill-container skill-5">
-                                        <div class="skill-percentage" style="width: 100%"></div>
-                                    </div>
-                                    <!-- End of Skill 5 -->
-
                                     <!-- Skill 6 -->
                                     <div class="skill clearfix">
                                         <h4>PHP</h4>
@@ -735,7 +725,33 @@
                                         <div class="skill-percentage" style="width: 100%"></div>
                                     </div>
                                     <!-- End of Skill 6 -->
-
+                                    <!-- Skill 5 -->
+                                    <div class="skill clearfix">
+                                        <h4>Laravel</h4>
+                                        <div class="skill-value">100%</div>
+                                    </div>
+                                    <div class="skill-container skill-5">
+                                        <div class="skill-percentage" style="width: 100%"></div>
+                                    </div>
+                                    <!-- End of Skill 5 -->
+                                    <!-- Skill 24 -->
+                                    <div class="skill clearfix">
+                                        <h4>Lumen </h4>
+                                        <div class="skill-value">100%</div>
+                                    </div>
+                                    <div class="skill-container skill-9">
+                                        <div class="skill-percentage" style="width: 100%"></div>
+                                    </div>
+                                    <!-- End of Skill 24 -->
+                                    <!-- Skill 18 -->
+                                    <div class="skill clearfix">
+                                        <h4>Javascript </h4>
+                                        <div class="skill-value">90%</div>
+                                    </div>
+                                    <div class="skill-container skill-9">
+                                        <div class="skill-percentage" style="width: 90%"></div>
+                                    </div>
+                                    <!-- End of Skill 18 -->
                                     <!-- Skill 7 -->
                                     <div class="skill clearfix">
                                         <h4>HTML/CSS</h4>
@@ -745,7 +761,15 @@
                                         <div class="skill-percentage"></div>
                                     </div>
                                     <!-- End of Skill 7 -->
-
+                                    <!-- Skill 19 -->
+                                    <div class="skill clearfix">
+                                        <h4>SASS </h4>
+                                        <div class="skill-value">100%</div>
+                                    </div>
+                                    <div class="skill-container skill-9">
+                                        <div class="skill-percentage" style="width: 100%"></div>
+                                    </div>
+                                    <!-- End of Skill 19 -->
                                     <!-- Skill 8 -->
                                     <div class="skill clearfix">
                                         <h4>4 bootstrap</h4>
@@ -755,34 +779,15 @@
                                         <div class="skill-percentage" style="width: 100%"></div>
                                     </div>
                                     <!-- End of Skill 8 -->
-
-                                    <!-- Skill 9 -->
+                                    <!-- Skill 17 -->
                                     <div class="skill clearfix">
-                                        <h4>Jquery </h4>
+                                        <h4>Ajax </h4>
                                         <div class="skill-value">100%</div>
                                     </div>
                                     <div class="skill-container skill-9">
                                         <div class="skill-percentage" style="width: 100%"></div>
                                     </div>
-                                    <!-- End of Skill 9 -->
-                                    <!-- Skill 10 -->
-                                    <div class="skill clearfix">
-                                        <h4>MVC </h4>
-                                        <div class="skill-value">100%</div>
-                                    </div>
-                                    <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 100%"></div>
-                                    </div>
-                                    <!-- End of Skill 10 -->
-                                    <!-- Skill 11 -->
-                                    <div class="skill clearfix">
-                                        <h4>OOP </h4>
-                                        <div class="skill-value">100%</div>
-                                    </div>
-                                    <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 100%"></div>
-                                    </div>
-                                    <!-- End of Skill 11 -->
+                                    <!-- End of Skill 17 -->
                                     <!-- Skill 12 -->
                                     <div class="skill clearfix">
                                         <h4>Vuejs </h4>
@@ -792,9 +797,37 @@
                                         <div class="skill-percentage" style="width: 40%"></div>
                                     </div>
                                     <!-- End of Skill 12 -->
+                                    <!-- Skill 9 -->
+                                    <div class="skill clearfix">
+                                        <h4>Jquery </h4>
+                                        <div class="skill-value">100%</div>
+                                    </div>
+                                    <div class="skill-container skill-9">
+                                        <div class="skill-percentage" style="width: 100%"></div>
+                                    </div>
+                                    <!-- End of Skill 9 -->
+
+                                    <!-- Skill 13 -->
+                                    <div class="skill clearfix">
+                                        <h4> Sql </h4>
+                                        <div class="skill-value">100%</div>
+                                    </div>
+                                    <div class="skill-container skill-9">
+                                        <div class="skill-percentage" style="width: 100%"></div>
+                                    </div>
+                                    <!-- End of Skill 13 -->
                                     <!-- Skill 13 -->
                                     <div class="skill clearfix">
                                         <h4> Mysql </h4>
+                                        <div class="skill-value">100%</div>
+                                    </div>
+                                    <div class="skill-container skill-9">
+                                        <div class="skill-percentage" style="width: 100%"></div>
+                                    </div>
+                                    <!-- End of Skill 13 -->
+                                    <!-- Skill 13 -->
+                                    <div class="skill clearfix">
+                                        <h4> Postgresql </h4>
                                         <div class="skill-value">100%</div>
                                     </div>
                                     <div class="skill-container skill-9">
@@ -820,34 +853,25 @@
                                         <div class="skill-percentage" style="width: 80%"></div>
                                     </div>
                                     <!-- End of Skill 16 -->
-                                    <!-- Skill 17 -->
-                                    <div class="skill clearfix">
-                                        <h4>Ajax </h4>
-                                        <div class="skill-value">100%</div>
-                                    </div>
-                                    <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 100%"></div>
-                                    </div>
-                                    <!-- End of Skill 17 -->
-                                    <!-- Skill 18 -->
-                                    <div class="skill clearfix">
-                                        <h4>Javascript </h4>
-                                        <div class="skill-value">90%</div>
-                                    </div>
-                                    <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 90%"></div>
-                                    </div>
-                                    <!-- End of Skill 18 -->
-                                    <!-- Skill 19 -->
-                                    <div class="skill clearfix">
-                                        <h4>SASS </h4>
-                                        <div class="skill-value">100%</div>
-                                    </div>
-                                    <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 100%"></div>
-                                    </div>
-                                    <!-- End of Skill 19 -->
 
+                                    <!-- Skill 11 -->
+                                    <div class="skill clearfix">
+                                        <h4>OOP </h4>
+                                        <div class="skill-value">100%</div>
+                                    </div>
+                                    <div class="skill-container skill-9">
+                                        <div class="skill-percentage" style="width: 100%"></div>
+                                    </div>
+                                    <!-- End of Skill 11 -->
+                                    <!-- Skill 10 -->
+                                    <div class="skill clearfix">
+                                        <h4>MVC </h4>
+                                        <div class="skill-value">100%</div>
+                                    </div>
+                                    <div class="skill-container skill-9">
+                                        <div class="skill-percentage" style="width: 100%"></div>
+                                    </div>
+                                    <!-- End of Skill 10 -->
                                     <!-- Skill 23 -->
                                     <div class="skill clearfix">
                                         <h4>Restfull Api </h4>
@@ -857,24 +881,24 @@
                                         <div class="skill-percentage" style="width: 100%"></div>
                                     </div>
                                     <!-- End of Skill 23 -->
-                                    <!-- Skill 24 -->
+                                    <!-- Skill 23 -->
                                     <div class="skill clearfix">
-                                        <h4>CSS </h4>
-                                        <div class="skill-value">100%</div>
+                                        <h4>Docker</h4>
+                                        <div class="skill-value">40%</div>
                                     </div>
                                     <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 100%"></div>
+                                        <div class="skill-percentage" style="width: 40%"></div>
                                     </div>
-                                    <!-- End of Skill 24 -->
-                                    <!-- Skill 24 -->
+                                    <!-- End of Skill 23 -->
+                                    <!-- Skill 23 -->
                                     <div class="skill clearfix">
-                                        <h4>Lumen </h4>
-                                        <div class="skill-value">100%</div>
+                                        <h4>Linux</h4>
+                                        <div class="skill-value">40%</div>
                                     </div>
                                     <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 100%"></div>
+                                        <div class="skill-percentage" style="width: 40%"></div>
                                     </div>
-                                    <!-- End of Skill 24 -->
+                                    <!-- End of Skill 23 -->
                                 </div>
                                 <!-- End of Coding Skills -->
 
