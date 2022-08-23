@@ -1334,7 +1334,7 @@
                                         </div>
 
                                         <div class="g-recaptcha"
-                                             data-sitekey="6LfxsaAhAAAAACH4sjLIhdhV9zdVutBe-sEJzruV"></div>
+                                             data-sitekey="6LfstqAhAAAAAET-ODvgE8dizF9Zt-FHtddapYKD"></div>
 
                                         <input type="submit" class="button btn-send" value="ارسال پیام">
                                     </div>
