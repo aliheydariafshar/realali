@@ -25,7 +25,7 @@
                'callback_then' => 'callbackThen',
                'callback_catch' => 'callbackCatch'
            ]) !!}
-        <link rel="shortcut icon" type="image/x-icon" href="{{\Illuminate\Support\Facades\URL::asset('assets/img/ali.png')}}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{\Illuminate\Support\Facades\URL::asset('assets/img/ali.png')}}"/>
 
     {{--    reCaptcha::htmlFormSnippet()--}}
 </head>
@@ -49,6 +49,15 @@
     @if(Session::has('success'))
         <div class="alert alert-success" style="margin-top: 50px">
             {{ Session::get('success') }}
+        </div>
+    @endif
+    @if ($errors->any())
+        <div class="alert alert-danger" style="margin-top: 50px">
+            <ul>
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
         </div>
     @endif
     <div class="page-content">
@@ -173,7 +182,7 @@
                             <div class="col-xs-12 col-sm-7">
                                 <p>
                                     برنامه نویس و توسعه دهنده وب دارای تجربه در توسعه لایه های مختلف نرم افزار از طراحی دیتابیس تا توسعه بک اند و فرانت اند،
-                                   علاقه مند برای یادگیری تکنولوژی های روز و تجربه چالش های جذاب
+                                    علاقه مند برای یادگیری تکنولوژی های روز و تجربه چالش های جذاب
                                 </p>
                             </div>
 
@@ -193,76 +202,76 @@
                         <div class="white-space-50"></div>
 
                         <!-- Services -->
-{{--                        <div class="row">--}}
-{{--                            <div class="col-xs-12 col-sm-12">--}}
-{{--                                <div class="block-title">--}}
-{{--                                    <h3>من <span>چیکار میکنم؟</span></h3>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
+                    {{--                        <div class="row">--}}
+                    {{--                            <div class="col-xs-12 col-sm-12">--}}
+                    {{--                                <div class="block-title">--}}
+                    {{--                                    <h3>من <span>چیکار میکنم؟</span></h3>--}}
+                    {{--                                </div>--}}
+                    {{--                            </div>--}}
+                    {{--                        </div>--}}
 
-{{--                        <div class="row">--}}
-{{--                            <div class="col-xs-12 col-sm-6">--}}
-{{--                                <div class="col-inner">--}}
-{{--                                    <div class="info-list-w-icon">--}}
-{{--                                        <div class="info-block-w-icon">--}}
-{{--                                            <div class="ci-icon">--}}
-{{--                                                <i class="fa fa-desktop"></i>--}}
-{{--                                            </div>--}}
-{{--                                            <div class="ci-text">--}}
-{{--                                                <h4>برنامه نویسی وب با لاراول</h4>--}}
-{{--                                                <p>--}}
-{{--                                                    برنامه نویسی انواع سایت های فروشگاهی، شرکتی، خبری،...با فریمورک--}}
-{{--                                                    لاراول--}}
-{{--                                                </p>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                        <div class="info-block-w-icon">--}}
-{{--                                            <div class="ci-icon">--}}
-{{--                                                <i class="fa fa-mobile-alt"></i>--}}
-{{--                                            </div>--}}
-{{--                                            <div class="ci-text">--}}
-{{--                                                <h4>api نویسی با لاراول</h4>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
+                    {{--                        <div class="row">--}}
+                    {{--                            <div class="col-xs-12 col-sm-6">--}}
+                    {{--                                <div class="col-inner">--}}
+                    {{--                                    <div class="info-list-w-icon">--}}
+                    {{--                                        <div class="info-block-w-icon">--}}
+                    {{--                                            <div class="ci-icon">--}}
+                    {{--                                                <i class="fa fa-desktop"></i>--}}
+                    {{--                                            </div>--}}
+                    {{--                                            <div class="ci-text">--}}
+                    {{--                                                <h4>برنامه نویسی وب با لاراول</h4>--}}
+                    {{--                                                <p>--}}
+                    {{--                                                    برنامه نویسی انواع سایت های فروشگاهی، شرکتی، خبری،...با فریمورک--}}
+                    {{--                                                    لاراول--}}
+                    {{--                                                </p>--}}
+                    {{--                                            </div>--}}
+                    {{--                                        </div>--}}
+                    {{--                                        <div class="info-block-w-icon">--}}
+                    {{--                                            <div class="ci-icon">--}}
+                    {{--                                                <i class="fa fa-mobile-alt"></i>--}}
+                    {{--                                            </div>--}}
+                    {{--                                            <div class="ci-text">--}}
+                    {{--                                                <h4>api نویسی با لاراول</h4>--}}
+                    {{--                                            </div>--}}
+                    {{--                                        </div>--}}
+                    {{--                                    </div>--}}
+                    {{--                                </div>--}}
+                    {{--                            </div>--}}
 
-{{--                            <div class="col-xs-12 col-sm-6">--}}
-{{--                                <div class="col-inner">--}}
-{{--                                    <div class="info-block-w-icon">--}}
-{{--                                        <div class="info-block-w-icon">--}}
-{{--                                            <div class="ci-icon">--}}
-{{--                                                <i class="fa fa-expand"></i>--}}
-{{--                                            </div>--}}
-{{--                                            <div class="ci-text">--}}
-{{--                                                <h4>توسعه سایت</h4>--}}
-{{--                                                <p>--}}
-{{--                                                    توسعه انواع سایت های لاراولی و افزودن امکانات جدید--}}
-{{--                                                </p>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                                <div class="col-inner">--}}
-{{--                                    <div class="info-list-w-icon">--}}
-{{--                                        <div class="info-block-w-icon">--}}
-{{--                                            <div class="ci-icon">--}}
-{{--                                                <i class="fa fa-wrench"></i>--}}
-{{--                                            </div>--}}
-{{--                                            <div class="ci-text">--}}
-{{--                                                <h4>دیباگ</h4>--}}
-{{--                                                <p>--}}
-{{--                                                    دیباگ انواع سایت های لاراولی--}}
-{{--                                                </p>--}}
-{{--                                            </div>--}}
-{{--                                        </div>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-                        <!-- End of Services -->
+                    {{--                            <div class="col-xs-12 col-sm-6">--}}
+                    {{--                                <div class="col-inner">--}}
+                    {{--                                    <div class="info-block-w-icon">--}}
+                    {{--                                        <div class="info-block-w-icon">--}}
+                    {{--                                            <div class="ci-icon">--}}
+                    {{--                                                <i class="fa fa-expand"></i>--}}
+                    {{--                                            </div>--}}
+                    {{--                                            <div class="ci-text">--}}
+                    {{--                                                <h4>توسعه سایت</h4>--}}
+                    {{--                                                <p>--}}
+                    {{--                                                    توسعه انواع سایت های لاراولی و افزودن امکانات جدید--}}
+                    {{--                                                </p>--}}
+                    {{--                                            </div>--}}
+                    {{--                                        </div>--}}
+                    {{--                                    </div>--}}
+                    {{--                                </div>--}}
+                    {{--                                <div class="col-inner">--}}
+                    {{--                                    <div class="info-list-w-icon">--}}
+                    {{--                                        <div class="info-block-w-icon">--}}
+                    {{--                                            <div class="ci-icon">--}}
+                    {{--                                                <i class="fa fa-wrench"></i>--}}
+                    {{--                                            </div>--}}
+                    {{--                                            <div class="ci-text">--}}
+                    {{--                                                <h4>دیباگ</h4>--}}
+                    {{--                                                <p>--}}
+                    {{--                                                    دیباگ انواع سایت های لاراولی--}}
+                    {{--                                                </p>--}}
+                    {{--                                            </div>--}}
+                    {{--                                        </div>--}}
+                    {{--                                    </div>--}}
+                    {{--                                </div>--}}
+                    {{--                            </div>--}}
+                    {{--                        </div>--}}
+                    <!-- End of Services -->
 
                         <div class="white-space-30"></div>
 
@@ -1270,12 +1279,12 @@
                                     <span class="lm-info-block-text"></span>
                                 </div>
 
-{{--                                <div class="lm-info-block gray-default">--}}
-{{--                                    <i class="lnr lnr-checkmark-circle"></i>--}}
-{{--                                    <h4>فریلنس دردسترس</h4>--}}
-{{--                                    <span class="lm-info-block-value"></span>--}}
-{{--                                    <span class="lm-info-block-text"></span>--}}
-{{--                                </div>--}}
+                                {{--                                <div class="lm-info-block gray-default">--}}
+                                {{--                                    <i class="lnr lnr-checkmark-circle"></i>--}}
+                                {{--                                    <h4>فریلنس دردسترس</h4>--}}
+                                {{--                                    <span class="lm-info-block-value"></span>--}}
+                                {{--                                    <span class="lm-info-block-text"></span>--}}
+                                {{--                                </div>--}}
 
 
                             </div>

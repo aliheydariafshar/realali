@@ -18,7 +18,10 @@ class ContactMeController extends Controller
             'email' => 'required|email',
             'content' => 'required|string',
             'g-recaptcha-response' => 'recaptcha',
+        ], [
+            'g-recaptcha-response.recaptcha' => 'لطفا فیلد من ربات نیستم را تایید کنید.'
         ]);
+
         ContactMe::query()->create($request->all());
 
 //        Notification::send(User::all(),new sendMail());
