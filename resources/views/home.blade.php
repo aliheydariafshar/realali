@@ -96,12 +96,12 @@
                 {{--                        <span class="link-text">نمونه کار</span>--}}
                 {{--                    </a>--}}
                 {{--                </li>--}}
-                {{--                <li>--}}
-                {{--                    <a href="#blog" class="nav-anim">--}}
-                {{--                        <span class="menu-icon lnr lnr-book"></span>--}}
-                {{--                        <span class="link-text">بلاگ</span>--}}
-                {{--                    </a>--}}
-                {{--                </li>--}}
+                <li>
+                    <a href="#blog" class="nav-anim">
+                        <span class="menu-icon lnr lnr-book"></span>
+                        <span class="link-text">بلاگ</span>
+                    </a>
+                </li>
                 <li>
                     <a href="#contact" class="nav-anim">
                         <span class="menu-icon lnr lnr-envelope"></span>
@@ -1138,106 +1138,45 @@
 
                     <div class="section-content">
                         <div class="row">
-                            <div class="col-xs-12 col-sm-12">
+                            <div class="col-lg-12">
                                 <div class="blog-masonry two-columns clearfix">
-
-                                    <!-- Blog Post 1 -->
                                     <div class="item post-1">
                                         <div class="blog-card">
                                             <div class="media-block">
-                                                <div class="category">
-                                                    <a href="#" title="نمایش همه ی نوشته ها در طراحی">طراحی</a>
-                                                </div>
-                                                <a href="blog/blog-post-7.html">
-                                                    <img src="img/blog/blog_post_1.jpg"
+                                                <a href="https://heydariali.medium.com/laravel-clean-code-2-6d87c34b06b0?source=user_profile---------0----------------------------" target="_blank">
+                                                    <img src="{{\Illuminate\Support\Facades\URL::asset('assets/img/laravel.png')}}"
                                                          class="size-blog-masonry-image-two-c"
-                                                         alt="چرا برای طراحی UI به Sketch سوئیچ کردم" title=""/>
+                                                         alt="Laravel Clean Code (2)" title=""/>
                                                     <div class="mask"></div>
                                                 </a>
                                             </div>
                                             <div class="post-info">
-                                                <div class="post-date">11 اسفند 1398</div>
-                                                <a href="blog/blog-post-7.html">
-                                                    <h4 class="blog-item-title">چرا برای طراحی UI به Sketch سوئیچ
-                                                        کردم</h4>
+                                                <div class="post-date">13 شهریور 1401</div>
+                                                <a href="https://heydariali.medium.com/laravel-clean-code-2-6d87c34b06b0?source=user_profile---------0----------------------------" target="_blank">
+                                                    <h4 class="blog-item-title">Laravel Clean Code (2)</h4>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- End of Blog Post 1 -->
 
-                                    <!-- Blog Post 2 -->
-                                    <div class="item post-2">
-                                        <div class="blog-card">
-                                            <div class="media-block">
-                                                <div class="category">
-                                                    <a href="#" title="نمایش همه ی نوشته ها در UI">UI</a>
-                                                </div>
-                                                <a href="blog/blog-post-7.html">
-                                                    <img src="img/blog/blog_post_2.jpg"
-                                                         class="size-blog-masonry-image-two-c"
-                                                         alt="بهترین روش ها برای شاخص های پیشرفت متحرک" title=""/>
-                                                    <div class="mask"></div>
-                                                </a>
-                                            </div>
-                                            <div class="post-info">
-                                                <div class="post-date">23 فروردین 1399</div>
-                                                <a href="blog/blog-post-7.html">
-                                                    <h4 class="blog-item-title">بهترین روش ها برای شاخص های پیشرفت
-                                                        متحرک</h4>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End of Blog Post 2 -->
-
-                                    <!-- Blog Post 3 -->
                                     <div class="item post-1">
                                         <div class="blog-card">
                                             <div class="media-block">
-                                                <div class="category">
-                                                    <a href="#" title="نمایش همه ی نوشته ها در طراحی">طراحی</a>
-                                                </div>
-                                                <a href="blog/blog-post-7.html">
-                                                    <img src="img/blog/blog_post_3.jpg"
+                                                <a href="https://heydariali.medium.com/laravel-clean-code-1-74d7a76e2eab?source=user_profile---------0----------------------------" target="_blank">
+                                                    <img src="{{\Illuminate\Support\Facades\URL::asset('assets/img/laravel.png')}}"
                                                          class="size-blog-masonry-image-two-c"
-                                                         alt="طراحی جدول مقایسه ویژگی های ایده آل" title=""/>
+                                                         alt="Laravel Clean Code (1)" title=""/>
                                                     <div class="mask"></div>
                                                 </a>
                                             </div>
                                             <div class="post-info">
-                                                <div class="post-date">6 ادریبهشت 1399</div>
-                                                <a href="blog/blog-post-7.html">
-                                                    <h4 class="blog-item-title">طراحی جدول مقایسه ویژگی های ایده آل</h4>
+                                                <div class="post-date">10 شهریور 1401</div>
+                                                <a href="https://heydariali.medium.com/laravel-clean-code-1-74d7a76e2eab?source=user_profile---------0----------------------------" target="_blank">
+                                                    <h4 class="blog-item-title">Laravel Clean Code (1)</h4>
                                                 </a>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- End of Blog Post 3 -->
-
-                                    <!-- Blog Post 4 -->
-                                    <div class="item post-2">
-                                        <div class="blog-card">
-                                            <div class="media-block">
-                                                <div class="category">
-                                                    <a href="#" title="نمایش همه ی نوشته ها در فروشگاهی">UI</a>
-                                                </div>
-                                                <a href="blog/blog-post-7.html">
-                                                    <img src="img/blog/blog_post_4.jpg"
-                                                         class="size-blog-masonry-image-two-c"
-                                                         alt="دیدگاهی از پلتفرم های فروشگاهی" title=""/>
-                                                    <div class="mask"></div>
-                                                </a>
-                                            </div>
-                                            <div class="post-info">
-                                                <div class="post-date">7 مهر 1399</div>
-                                                <a href="blog/blog-post-7.html">
-                                                    <h4 class="blog-item-title">دیدگاهی از پلتفرم های فروشگاهی</h4>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- End of Blog Post 4 -->
                                 </div>
                             </div>
                         </div>
