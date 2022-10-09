@@ -1177,6 +1177,24 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="item post-1">
+                                        <div class="blog-card">
+                                            <div class="media-block">
+                                                <a href="https://heydariali.medium.com/laravel-clean-code-3-370c845f1a83?source=user_profile---------0----------------------------" target="_blank">
+                                                    <img src="{{\Illuminate\Support\Facades\URL::asset('assets/img/laravel.png')}}"
+                                                         class="size-blog-masonry-image-two-c"
+                                                         alt="Laravel Clean Code (3)" title=""/>
+                                                    <div class="mask"></div>
+                                                </a>
+                                            </div>
+                                            <div class="post-info">
+                                                <div class="post-date">13 مهر 1401</div>
+                                                <a href="https://heydariali.medium.com/laravel-clean-code-3-370c845f1a83?source=user_profile---------0----------------------------" target="_blank">
+                                                    <h4 class="blog-item-title">Laravel Clean Code (3)</h4>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
