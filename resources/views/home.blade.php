@@ -159,7 +159,7 @@
                                         {{--                                            <div class="sp-subtitle">طراح سایت</div>--}}
                                         {{--                                        </div>--}}
                                         <div class="item">
-                                            <div class="sp-subtitle">توسعه دهنده وب</div>
+                                            <div class="sp-subtitle">Back End Developer</div>
                                         </div>
                                     </div>
                                 </div>
@@ -181,8 +181,8 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-7">
                                 <p>
-                                    برنامه نویس و توسعه دهنده وب دارای تجربه در توسعه لایه های مختلف نرم افزار از طراحی دیتابیس تا توسعه بک اند و فرانت اند،
-                                    علاقه مند برای یادگیری تکنولوژی های روز و تجربه چالش های جذاب
+                                    برنامه نویس و توسعه دهنده وب دارای تجربه در توسعه لایه های مختلف نرم‌افزار، پایبند به اصول مهندسی نرم‌افزار و clean code
+                                    در توسعه اپلیکیشن ها
                                 </p>
                             </div>
 
@@ -571,7 +571,7 @@
                                 <div class="timeline timeline-second-style clearfix">
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period">شهریور 1399-</h5>
+                                            <h5 class="item-period">مهر 1399-</h5>
                                             <span class="item-company">سایمان دیجیتال</span>
                                         </div>
                                         <div class="divider"></div>
@@ -754,11 +754,11 @@
                                     <!-- End of Skill 24 -->
                                     <!-- Skill 18 -->
                                     <div class="skill clearfix">
-                                        <h4>Javascript </h4>
-                                        <div class="skill-value">90%</div>
+                                        <h4>Javascript</h4>
+                                        <div class="skill-value">100%</div>
                                     </div>
                                     <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 90%"></div>
+                                        <div class="skill-percentage" style="width: 100%"></div>
                                     </div>
                                     <!-- End of Skill 18 -->
                                     <!-- Skill 7 -->
@@ -781,7 +781,7 @@
                                     <!-- End of Skill 19 -->
                                     <!-- Skill 8 -->
                                     <div class="skill clearfix">
-                                        <h4>4 bootstrap</h4>
+                                        <h4>bootstrap</h4>
                                         <div class="skill-value">100%</div>
                                     </div>
                                     <div class="skill-container skill-8">
@@ -799,7 +799,14 @@
                                     <!-- End of Skill 17 -->
                                     <!-- Skill 12 -->
                                     <div class="skill clearfix">
-                                        <h4>Vuejs </h4>
+                                        <h4>Vuejs</h4>
+                                        <div class="skill-value">40%</div>
+                                    </div>
+                                    <div class="skill-container skill-9">
+                                        <div class="skill-percentage" style="width: 40%"></div>
+                                    </div>
+                                    <div class="skill clearfix">
+                                        <h4>Nuxt</h4>
                                         <div class="skill-value">40%</div>
                                     </div>
                                     <div class="skill-container skill-9">
@@ -902,6 +909,13 @@
                                     <!-- Skill 23 -->
                                     <div class="skill clearfix">
                                         <h4>Linux</h4>
+                                        <div class="skill-value">40%</div>
+                                    </div>
+                                    <div class="skill-container skill-9">
+                                        <div class="skill-percentage" style="width: 40%"></div>
+                                    </div>
+                                    <div class="skill clearfix">
+                                        <h4>Python</h4>
                                         <div class="skill-value">40%</div>
                                     </div>
                                     <div class="skill-container skill-9">
@@ -1251,7 +1265,7 @@
                             <div class="col-xs-12 col-sm-8">
                                 {{--                                <div id="map" class="map"></div>--}}
                                 <div class="block-title">
-                                    <h3>چطور میتوانم <span>کمکتون کنم؟</span></h3>
+                                    <h3>چطور میتونم <span>کمکتون کنم؟</span></h3>
                                 </div>
 
                                 <form class="contact-form" action="{{route('message.store')}}" method="Post">
