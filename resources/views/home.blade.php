@@ -153,7 +153,8 @@
                         <div class="row">
                             <div class="col-sm-12 col-md-12 col-lg-12">
                                 <div class="title-block">
-                                    <h2>علی حیدری</h2>
+                                    <img height="100" src="{{\Illuminate\Support\Facades\URL::asset('assets/img/ali.png')}}"
+                                         alt="" style="margin-right: auto;margin-left: auto;">
                                     <div class="owl-carousel text-rotation">
                                         {{--                                        <div class="item">--}}
                                         {{--                                            <div class="sp-subtitle">طراح سایت</div>--}}
@@ -202,76 +203,76 @@
                         <div class="white-space-50"></div>
 
                         <!-- Services -->
-                    {{--                        <div class="row">--}}
-                    {{--                            <div class="col-xs-12 col-sm-12">--}}
-                    {{--                                <div class="block-title">--}}
-                    {{--                                    <h3>من <span>چیکار میکنم؟</span></h3>--}}
-                    {{--                                </div>--}}
-                    {{--                            </div>--}}
-                    {{--                        </div>--}}
+                        {{--                        <div class="row">--}}
+                        {{--                            <div class="col-xs-12 col-sm-12">--}}
+                        {{--                                <div class="block-title">--}}
+                        {{--                                    <h3>من <span>چیکار میکنم؟</span></h3>--}}
+                        {{--                                </div>--}}
+                        {{--                            </div>--}}
+                        {{--                        </div>--}}
 
-                    {{--                        <div class="row">--}}
-                    {{--                            <div class="col-xs-12 col-sm-6">--}}
-                    {{--                                <div class="col-inner">--}}
-                    {{--                                    <div class="info-list-w-icon">--}}
-                    {{--                                        <div class="info-block-w-icon">--}}
-                    {{--                                            <div class="ci-icon">--}}
-                    {{--                                                <i class="fa fa-desktop"></i>--}}
-                    {{--                                            </div>--}}
-                    {{--                                            <div class="ci-text">--}}
-                    {{--                                                <h4>برنامه نویسی وب با لاراول</h4>--}}
-                    {{--                                                <p>--}}
-                    {{--                                                    برنامه نویسی انواع سایت های فروشگاهی، شرکتی، خبری،...با فریمورک--}}
-                    {{--                                                    لاراول--}}
-                    {{--                                                </p>--}}
-                    {{--                                            </div>--}}
-                    {{--                                        </div>--}}
-                    {{--                                        <div class="info-block-w-icon">--}}
-                    {{--                                            <div class="ci-icon">--}}
-                    {{--                                                <i class="fa fa-mobile-alt"></i>--}}
-                    {{--                                            </div>--}}
-                    {{--                                            <div class="ci-text">--}}
-                    {{--                                                <h4>api نویسی با لاراول</h4>--}}
-                    {{--                                            </div>--}}
-                    {{--                                        </div>--}}
-                    {{--                                    </div>--}}
-                    {{--                                </div>--}}
-                    {{--                            </div>--}}
+                        {{--                        <div class="row">--}}
+                        {{--                            <div class="col-xs-12 col-sm-6">--}}
+                        {{--                                <div class="col-inner">--}}
+                        {{--                                    <div class="info-list-w-icon">--}}
+                        {{--                                        <div class="info-block-w-icon">--}}
+                        {{--                                            <div class="ci-icon">--}}
+                        {{--                                                <i class="fa fa-desktop"></i>--}}
+                        {{--                                            </div>--}}
+                        {{--                                            <div class="ci-text">--}}
+                        {{--                                                <h4>برنامه نویسی وب با لاراول</h4>--}}
+                        {{--                                                <p>--}}
+                        {{--                                                    برنامه نویسی انواع سایت های فروشگاهی، شرکتی، خبری،...با فریمورک--}}
+                        {{--                                                    لاراول--}}
+                        {{--                                                </p>--}}
+                        {{--                                            </div>--}}
+                        {{--                                        </div>--}}
+                        {{--                                        <div class="info-block-w-icon">--}}
+                        {{--                                            <div class="ci-icon">--}}
+                        {{--                                                <i class="fa fa-mobile-alt"></i>--}}
+                        {{--                                            </div>--}}
+                        {{--                                            <div class="ci-text">--}}
+                        {{--                                                <h4>api نویسی با لاراول</h4>--}}
+                        {{--                                            </div>--}}
+                        {{--                                        </div>--}}
+                        {{--                                    </div>--}}
+                        {{--                                </div>--}}
+                        {{--                            </div>--}}
 
-                    {{--                            <div class="col-xs-12 col-sm-6">--}}
-                    {{--                                <div class="col-inner">--}}
-                    {{--                                    <div class="info-block-w-icon">--}}
-                    {{--                                        <div class="info-block-w-icon">--}}
-                    {{--                                            <div class="ci-icon">--}}
-                    {{--                                                <i class="fa fa-expand"></i>--}}
-                    {{--                                            </div>--}}
-                    {{--                                            <div class="ci-text">--}}
-                    {{--                                                <h4>توسعه سایت</h4>--}}
-                    {{--                                                <p>--}}
-                    {{--                                                    توسعه انواع سایت های لاراولی و افزودن امکانات جدید--}}
-                    {{--                                                </p>--}}
-                    {{--                                            </div>--}}
-                    {{--                                        </div>--}}
-                    {{--                                    </div>--}}
-                    {{--                                </div>--}}
-                    {{--                                <div class="col-inner">--}}
-                    {{--                                    <div class="info-list-w-icon">--}}
-                    {{--                                        <div class="info-block-w-icon">--}}
-                    {{--                                            <div class="ci-icon">--}}
-                    {{--                                                <i class="fa fa-wrench"></i>--}}
-                    {{--                                            </div>--}}
-                    {{--                                            <div class="ci-text">--}}
-                    {{--                                                <h4>دیباگ</h4>--}}
-                    {{--                                                <p>--}}
-                    {{--                                                    دیباگ انواع سایت های لاراولی--}}
-                    {{--                                                </p>--}}
-                    {{--                                            </div>--}}
-                    {{--                                        </div>--}}
-                    {{--                                    </div>--}}
-                    {{--                                </div>--}}
-                    {{--                            </div>--}}
-                    {{--                        </div>--}}
-                    <!-- End of Services -->
+                        {{--                            <div class="col-xs-12 col-sm-6">--}}
+                        {{--                                <div class="col-inner">--}}
+                        {{--                                    <div class="info-block-w-icon">--}}
+                        {{--                                        <div class="info-block-w-icon">--}}
+                        {{--                                            <div class="ci-icon">--}}
+                        {{--                                                <i class="fa fa-expand"></i>--}}
+                        {{--                                            </div>--}}
+                        {{--                                            <div class="ci-text">--}}
+                        {{--                                                <h4>توسعه سایت</h4>--}}
+                        {{--                                                <p>--}}
+                        {{--                                                    توسعه انواع سایت های لاراولی و افزودن امکانات جدید--}}
+                        {{--                                                </p>--}}
+                        {{--                                            </div>--}}
+                        {{--                                        </div>--}}
+                        {{--                                    </div>--}}
+                        {{--                                </div>--}}
+                        {{--                                <div class="col-inner">--}}
+                        {{--                                    <div class="info-list-w-icon">--}}
+                        {{--                                        <div class="info-block-w-icon">--}}
+                        {{--                                            <div class="ci-icon">--}}
+                        {{--                                                <i class="fa fa-wrench"></i>--}}
+                        {{--                                            </div>--}}
+                        {{--                                            <div class="ci-text">--}}
+                        {{--                                                <h4>دیباگ</h4>--}}
+                        {{--                                                <p>--}}
+                        {{--                                                    دیباگ انواع سایت های لاراولی--}}
+                        {{--                                                </p>--}}
+                        {{--                                            </div>--}}
+                        {{--                                        </div>--}}
+                        {{--                                    </div>--}}
+                        {{--                                </div>--}}
+                        {{--                            </div>--}}
+                        {{--                        </div>--}}
+                        <!-- End of Services -->
 
                         <div class="white-space-30"></div>
 
@@ -571,7 +572,32 @@
                                 <div class="timeline timeline-second-style clearfix">
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period">مهر 1399-</h5>
+                                            <h5 class="item-period">آذر 1401 -</h5>
+                                            <span class="item-company">پارس پک</span>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title">senior backend developer</h4>
+                                            <p dir="ltr">
+                                                - Analysis and design of system software based on network, virtualization and Linux
+                                                <br>
+                                                - Providing suitable solutions for system structure, databases and information storage
+                                                <br>
+                                                - Providing creative and optimal solutions for system testing
+                                                <br>
+                                                - Implementation of reusable modules
+                                                <br>
+                                                - Clean coding
+                                                <br>
+                                                - Check and debug the system to find possible problems
+                                                <br>
+                                                - Collaborate with FrontEnd developer to use APIs
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period">مهر 1399-آبان 1401</h5>
                                             <span class="item-company">سایمان دیجیتال</span>
                                         </div>
                                         <div class="divider"></div>
@@ -580,17 +606,6 @@
                                             <p>توسعه سیستم ایکامرس شرکت مبتنی بر فریم ورک لاراول با قابلیت های مارکت پلیس با فروش بیش از 20
                                                 هزار محصول
                                             </p>
-                                        </div>
-                                    </div>
-                                    <div class="timeline-item clearfix">
-                                        <div class="left-part">
-                                            <h5 class="item-period"> شهریور 1399</h5>
-                                            <span class="item-company">آسون بیار</span>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <div class="right-part">
-                                            <h4 class="item-title">back end developer</h4>
-                                            <p>توسعه بک اند سایت و اپلیکیشن مبتنی بر فریم ورک لاراول شرکت </p>
                                         </div>
                                     </div>
 
@@ -742,6 +757,43 @@
                                     <div class="skill-container skill-5">
                                         <div class="skill-percentage" style="width: 100%"></div>
                                     </div>
+                                    <!-- Skill 13 -->
+                                    <div class="skill clearfix">
+                                        <h4> Sql </h4>
+                                        <div class="skill-value">100%</div>
+                                    </div>
+                                    <div class="skill-container skill-9">
+                                        <div class="skill-percentage" style="width: 100%"></div>
+                                    </div>
+                                    <!-- End of Skill 13 -->
+                                    <!-- Skill 13 -->
+                                    <div class="skill clearfix">
+                                        <h4> Mysql </h4>
+                                        <div class="skill-value">100%</div>
+                                    </div>
+                                    <div class="skill-container skill-9">
+                                        <div class="skill-percentage" style="width: 100%"></div>
+                                    </div>
+                                    <!-- End of Skill 13 -->
+                                    <!-- Skill 13 -->
+                                    <div class="skill clearfix">
+                                        <h4> Postgresql </h4>
+                                        <div class="skill-value">100%</div>
+                                    </div>
+                                    <div class="skill-container skill-9">
+                                        <div class="skill-percentage" style="width: 100%"></div>
+                                    </div>
+                                    <!-- End of Skill 13 -->
+                                    <!-- Skill 14 -->
+                                    <div class="skill clearfix">
+                                        <h4>Redis </h4>
+                                        <div class="skill-value">100%</div>
+                                    </div>
+                                    <div class="skill-container skill-9">
+                                        <div class="skill-percentage" style="width: 100%"></div>
+                                    </div>
+                                    <!-- End of Skill 14 -->
+
                                     <!-- End of Skill 5 -->
                                     <!-- Skill 24 -->
                                     <div class="skill clearfix">
@@ -822,43 +874,6 @@
                                         <div class="skill-percentage" style="width: 100%"></div>
                                     </div>
                                     <!-- End of Skill 9 -->
-
-                                    <!-- Skill 13 -->
-                                    <div class="skill clearfix">
-                                        <h4> Sql </h4>
-                                        <div class="skill-value">100%</div>
-                                    </div>
-                                    <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 100%"></div>
-                                    </div>
-                                    <!-- End of Skill 13 -->
-                                    <!-- Skill 13 -->
-                                    <div class="skill clearfix">
-                                        <h4> Mysql </h4>
-                                        <div class="skill-value">100%</div>
-                                    </div>
-                                    <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 100%"></div>
-                                    </div>
-                                    <!-- End of Skill 13 -->
-                                    <!-- Skill 13 -->
-                                    <div class="skill clearfix">
-                                        <h4> Postgresql </h4>
-                                        <div class="skill-value">100%</div>
-                                    </div>
-                                    <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 100%"></div>
-                                    </div>
-                                    <!-- End of Skill 13 -->
-                                    <!-- Skill 14 -->
-                                    <div class="skill clearfix">
-                                        <h4>Redis </h4>
-                                        <div class="skill-value">100%</div>
-                                    </div>
-                                    <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 100%"></div>
-                                    </div>
-                                    <!-- End of Skill 14 -->
 
                                     <!-- Skill 16 -->
                                     <div class="skill clearfix">
