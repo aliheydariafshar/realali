@@ -20,11 +20,11 @@
           type="text/css">
     <link rel="stylesheet" href="{{\Illuminate\Support\Facades\URL::asset('assets/css/dark-1.css')}}" type="text/css">
     <link rel="stylesheet" href="{{\Illuminate\Support\Facades\URL::asset('assets/css/rtl.css')}}" type="text/css">
-    {!! htmlScriptTagJsApi([
-               'action' => 'homepage',
-               'callback_then' => 'callbackThen',
-               'callback_catch' => 'callbackCatch'
-           ]) !!}
+{{--    {!! htmlScriptTagJsApi([--}}
+{{--               'action' => 'homepage',--}}
+{{--               'callback_then' => 'callbackThen',--}}
+{{--               'callback_catch' => 'callbackCatch'--}}
+{{--           ]) !!}--}}
     <link rel="shortcut icon" type="image/x-icon" href="{{\Illuminate\Support\Facades\URL::asset('assets/img/ali.png')}}"/>
 
     {{--    reCaptcha::htmlFormSnippet()--}}
@@ -1283,57 +1283,57 @@
                                     <h3>چطور میتونم <span>کمکتون کنم؟</span></h3>
                                 </div>
 
-                                <form class="contact-form" action="{{route('message.store')}}" method="Post">
-                                    @csrf
-                                    <div class="messages"></div>
+{{--                                <form class="contact-form" action="{{route('message.store')}}" method="Post">--}}
+{{--                                    @csrf--}}
+{{--                                    <div class="messages"></div>--}}
 
-                                    <div class="controls two-columns">
-                                        <div class="fields clearfix">
-                                            <div class="left-column">
-                                                <div class="form-group form-group-with-icon">
-                                                    <input id="form_name" type="text" name="name" class="form-control"
-                                                           placeholder="" data-error="نام الزامی می باشد." required>
-                                                    <label>نام کامل</label>
-                                                    <div class="form-control-border"></div>
-                                                    <div class="help-block with-errors"></div>
-                                                </div>
+{{--                                    <div class="controls two-columns">--}}
+{{--                                        <div class="fields clearfix">--}}
+{{--                                            <div class="left-column">--}}
+{{--                                                <div class="form-group form-group-with-icon">--}}
+{{--                                                    <input id="form_name" type="text" name="name" class="form-control"--}}
+{{--                                                           placeholder="" data-error="نام الزامی می باشد." required>--}}
+{{--                                                    <label>نام کامل</label>--}}
+{{--                                                    <div class="form-control-border"></div>--}}
+{{--                                                    <div class="help-block with-errors"></div>--}}
+{{--                                                </div>--}}
 
-                                                <div class="form-group form-group-with-icon">
-                                                    <input id="form_email" type="email" name="email"
-                                                           class="form-control" placeholder=""
-                                                           data-error="ایمیل معتبر الزامی می باشد." required>
-                                                    <label>آدرس ایمیل</label>
-                                                    <div class="form-control-border"></div>
-                                                    <div class="help-block with-errors"></div>
-                                                </div>
+{{--                                                <div class="form-group form-group-with-icon">--}}
+{{--                                                    <input id="form_email" type="email" name="email"--}}
+{{--                                                           class="form-control" placeholder=""--}}
+{{--                                                           data-error="ایمیل معتبر الزامی می باشد." required>--}}
+{{--                                                    <label>آدرس ایمیل</label>--}}
+{{--                                                    <div class="form-control-border"></div>--}}
+{{--                                                    <div class="help-block with-errors"></div>--}}
+{{--                                                </div>--}}
 
-                                                <div class="form-group form-group-with-icon">
-                                                    <input id="form_subject" type="text" name="subject"
-                                                           class="form-control" placeholder=""
-                                                           data-error="موضوع الزامی می باشد." required>
-                                                    <label>موضوع</label>
-                                                    <div class="form-control-border"></div>
-                                                    <div class="help-block with-errors"></div>
-                                                </div>
-                                            </div>
-                                            <div class="right-column">
-                                                <div class="form-group form-group-with-icon">
-                                                    <textarea id="form_message" name="content" class="form-control"
-                                                              placeholder="" rows="7"
-                                                              data-error="لطفا، یک پیام بنویسید." required></textarea>
-                                                    <label>پیام</label>
-                                                    <div class="form-control-border"></div>
-                                                    <div class="help-block with-errors"></div>
-                                                </div>
-                                            </div>
-                                        </div>
+{{--                                                <div class="form-group form-group-with-icon">--}}
+{{--                                                    <input id="form_subject" type="text" name="subject"--}}
+{{--                                                           class="form-control" placeholder=""--}}
+{{--                                                           data-error="موضوع الزامی می باشد." required>--}}
+{{--                                                    <label>موضوع</label>--}}
+{{--                                                    <div class="form-control-border"></div>--}}
+{{--                                                    <div class="help-block with-errors"></div>--}}
+{{--                                                </div>--}}
+{{--                                            </div>--}}
+{{--                                            <div class="right-column">--}}
+{{--                                                <div class="form-group form-group-with-icon">--}}
+{{--                                                    <textarea id="form_message" name="content" class="form-control"--}}
+{{--                                                              placeholder="" rows="7"--}}
+{{--                                                              data-error="لطفا، یک پیام بنویسید." required></textarea>--}}
+{{--                                                    <label>پیام</label>--}}
+{{--                                                    <div class="form-control-border"></div>--}}
+{{--                                                    <div class="help-block with-errors"></div>--}}
+{{--                                                </div>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                        {!! NoCaptcha::renderJs('en', true, 'recaptchaCallback') !!}--}}
+{{--                                        <div class="g-recaptcha"--}}
+{{--                                             data-sitekey="6LfstqAhAAAAAET-ODvgE8dizF9Zt-FHtddapYKD"></div>--}}
 
-                                        <div class="g-recaptcha"
-                                             data-sitekey="6LfstqAhAAAAAET-ODvgE8dizF9Zt-FHtddapYKD"></div>
-
-                                        <input type="submit" class="button btn-send" value="ارسال پیام">
-                                    </div>
-                                </form>
+{{--                                        <input type="submit" class="button btn-send" value="ارسال پیام">--}}
+{{--                                    </div>--}}
+{{--                                </form>--}}
                             </div>
                             <!-- End of Contact Form -->
                         </div>
