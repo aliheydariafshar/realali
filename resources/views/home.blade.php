@@ -182,8 +182,7 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-7">
                                 <p>
-                                    برنامه نویس و توسعه دهنده وب دارای تجربه در توسعه لایه های مختلف نرم‌افزار، پایبند به اصول مهندسی نرم‌افزار و clean code
-                                    در توسعه اپلیکیشن ها
+                                    برنامه نویس Backend دارای تجربه در توسعه لایه های مختلف نرم‌افزار، دارای مهارت‌های کدنویسی تمیز و مؤثر. با توانایی حل مسائل پیچیده و کار گروهی، همواره در تلاش برای بهبود عملکرد و کیفیت نرم‌افزارها هستم. به دنبال چالش‌های جدید برای ارتقاء مهارت‌ها و ایجاد ارزش افزوده برای سازمان‌ها.
                                 </p>
                             </div>
 
@@ -577,22 +576,17 @@
                                         </div>
                                         <div class="divider"></div>
                                         <div class="right-part">
-                                            <h4 class="item-title">senior backend developer</h4>
-                                            <p dir="ltr">
-                                                - Analysis and design of system software based on network, virtualization and Linux
-                                                <br>
-                                                - Providing suitable solutions for system structure, databases and information storage
-                                                <br>
-                                                - Providing creative and optimal solutions for system testing
-                                                <br>
-                                                - Implementation of reusable modules
-                                                <br>
-                                                - Clean coding
-                                                <br>
-                                                - Check and debug the system to find possible problems
-                                                <br>
-                                                - Collaborate with FrontEnd developer to use APIs
-                                            </p>
+                                            <h4 class="item-title">backend developer</h4>
+                                            <ul>
+                                                <li>
+                                                    همکاری در توسعه نسخه جدید
+                                                    <a href="https://my.abrha.net" rel="noopener noreferrer" target="_blank">پنل کاربری پارس پک</a>
+                                                </li>
+                                                <li>
+                                                    همکاری در توسعه سایت
+                                                    <a href="https://aticrowd.com" rel="noopener noreferrer" target="_blank">سکوی تأمین مالی جمعی آتی کراد</a>
+                                                </li>
+                                            </ul>
                                         </div>
                                     </div>
                                     <div class="timeline-item clearfix">
@@ -603,8 +597,15 @@
                                         <div class="divider"></div>
                                         <div class="right-part">
                                             <h4 class="item-title">back end & front end web developer</h4>
-                                            <p>توسعه سیستم ایکامرس شرکت مبتنی بر فریم ورک لاراول با قابلیت های مارکت پلیس با فروش بیش از 20
-                                                هزار محصول
+                                            <ul>
+                                                <li>
+                                                    توسعه <a href="https://saymandigital.com/" rel="noopener noreferrer" target="_blank">سایت شرکت</a> مبتنی بر فریم ورک لاراول با قابلیت های مارکت پلیس با فروش بیش از 20
+                                                    هزار محصول
+
+                                                </li>
+
+                                            </ul>
+                                            <p>
                                             </p>
                                         </div>
                                     </div>
@@ -617,19 +618,13 @@
                                         <div class="divider"></div>
                                         <div class="right-part">
                                             <h4 class="item-title">back end & front end web developer</h4>
-                                            <p>توسعه وب سایت مبتنی بر فریم ورک لاراول فروشگاه اینترنتی دینوک</p>
-                                        </div>
-                                    </div>
+                                            <ul>
+                                                <li>
+                                                    توسعه وب سایت مبتنی بر فریم ورک لاراول
+                                                    <a href="https://dinook.ir/" rel="noopener noreferrer" target="_blank">فروشگاه اینترنتی دینوک</a>
+                                                </li>
 
-                                    <div class="timeline-item clearfix">
-                                        <div class="left-part">
-                                            <h5 class="item-period">خرداد 1399</h5>
-                                            <span class="item-company">برنامه تلویزیونی شهروند و مافیا</span>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <div class="right-part">
-                                            <h4 class="item-title">back end & front end web developer</h4>
-                                            <p>توسعه وب سایت مبتنی بر فریم ورک لاراول برنامه شهروندمافیا</p>
+                                            </ul>
                                         </div>
                                     </div>
 
@@ -641,7 +636,13 @@
                                         <div class="divider"></div>
                                         <div class="right-part">
                                             <h4 class="item-title">back end & front end web developer</h4>
-                                            <p>توسعه وب سایت مبتنی بر فریم ورک لاراول وب سایت پایگاه مطالعاتی کلام امامیه</p>
+                                            <ul>
+                                                <li>
+                                                    توسعه وب سایت مبتنی بر فریم ورک لاراول وب سایت پایگاه مطالعاتی
+                                                    <a href="https://www.ekalam.ir/" rel="noopener noreferrer" target="_blank">کلام امامیه</a>
+                                                </li>
+
+                                            </ul>
                                         </div>
                                     </div>
                                     <div class="timeline-item clearfix">
@@ -652,20 +653,16 @@
                                         <div class="divider"></div>
                                         <div class="right-part">
                                             <h4 class="item-title">back end & front end web developer</h4>
-                                            <p>maemaeen توسعه وب سایت مبتنی بر فریم ورک لاراول وب سایت</p>
+                                            <ul>
+                                                <li>
+                                                     توسعه وب سایت مبتنی بر فریم ورک لاراول
+                                                    <a href="https://maemaeen.ir/" rel="noopener noreferrer" target="_blank">ماء معین</a>
+                                                </li>
+
+                                            </ul>
                                         </div>
                                     </div>
-                                    <div class="timeline-item clearfix">
-                                        <div class="left-part">
-                                            <h5 class="item-period">اسفند 1398</h5>
-                                            <span class="item-company">برنجکار</span>
-                                        </div>
-                                        <div class="divider"></div>
-                                        <div class="right-part">
-                                            <h4 class="item-title">back end & front end web developer</h4>
-                                            <p>berenjkar توسعه وب سایت مبتنی بر فریم ورک لاراول وب سایت</p>
-                                        </div>
-                                    </div>
+
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
                                             <h5 class="item-period">مهر تا بهمن1398</h5>
@@ -674,7 +671,13 @@
                                         <div class="divider"></div>
                                         <div class="right-part">
                                             <h4 class="item-title">back end & front end web developer</h4>
-                                            <p>توسعه پروژه های مبتنی بر فریم ورک لاراول شرکت زیتون</p>
+                                            <ul>
+                                                <li>
+                                                    توسعه پروژه های مبتنی بر فریم ورک لاراول
+                                                    <a href="https://www.zeitoon.org/" rel="noopener noreferrer" target="_blank">موسسه زیتون</a>
+                                                </li>
+
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -775,15 +778,7 @@
                                         <div class="skill-percentage" style="width: 100%"></div>
                                     </div>
                                     <!-- End of Skill 13 -->
-                                    <!-- Skill 13 -->
-                                    <div class="skill clearfix">
-                                        <h4> Postgresql </h4>
-                                        <div class="skill-value">100%</div>
-                                    </div>
-                                    <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 100%"></div>
-                                    </div>
-                                    <!-- End of Skill 13 -->
+
                                     <!-- Skill 14 -->
                                     <div class="skill clearfix">
                                         <h4>Redis </h4>
@@ -795,15 +790,7 @@
                                     <!-- End of Skill 14 -->
 
                                     <!-- End of Skill 5 -->
-                                    <!-- Skill 24 -->
-                                    <div class="skill clearfix">
-                                        <h4>Lumen </h4>
-                                        <div class="skill-value">100%</div>
-                                    </div>
-                                    <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 100%"></div>
-                                    </div>
-                                    <!-- End of Skill 24 -->
+
                                     <!-- Skill 18 -->
                                     <div class="skill clearfix">
                                         <h4>Javascript</h4>
@@ -849,22 +836,7 @@
                                         <div class="skill-percentage" style="width: 100%"></div>
                                     </div>
                                     <!-- End of Skill 17 -->
-                                    <!-- Skill 12 -->
-                                    <div class="skill clearfix">
-                                        <h4>Vuejs</h4>
-                                        <div class="skill-value">40%</div>
-                                    </div>
-                                    <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 40%"></div>
-                                    </div>
-                                    <div class="skill clearfix">
-                                        <h4>Nuxt</h4>
-                                        <div class="skill-value">40%</div>
-                                    </div>
-                                    <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 40%"></div>
-                                    </div>
-                                    <!-- End of Skill 12 -->
+
                                     <!-- Skill 9 -->
                                     <div class="skill clearfix">
                                         <h4>Jquery </h4>
@@ -894,15 +866,7 @@
                                         <div class="skill-percentage" style="width: 100%"></div>
                                     </div>
                                     <!-- End of Skill 11 -->
-                                    <!-- Skill 10 -->
-                                    <div class="skill clearfix">
-                                        <h4>MVC </h4>
-                                        <div class="skill-value">100%</div>
-                                    </div>
-                                    <div class="skill-container skill-9">
-                                        <div class="skill-percentage" style="width: 100%"></div>
-                                    </div>
-                                    <!-- End of Skill 10 -->
+
                                     <!-- Skill 23 -->
                                     <div class="skill clearfix">
                                         <h4>Restfull Api </h4>
